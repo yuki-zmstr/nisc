@@ -1,0 +1,169 @@
+/* ----------------------------------------------- */
+
+
+/* BASIC SETUP */
+
+
+/* ----------------------------------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    background-color: white;
+    color: black;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* CAROUSEL */
+
+
+/* ----------------------------------------------- */
+
+.carousel-item {
+    width: 100vw;
+    height: 75vh;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* TOP NAV */
+
+
+/* ----------------------------------------------- */
+
+#topnav {
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    top: 75vh;
+    background-color: rgb(28, 29, 34);
+    height: fit-content;
+    padding: 1vh 0;
+    color: white;
+    border: 3px solid rgb(153, 152, 152);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    /* font-family: "Roboto", sans-serif; */
+    z-index: 2;
+}
+
+#topnav .col-3 {
+    font-size: 1.5vw
+}
+
+#topnav .col {
+    margin: auto;
+    font-size: 0.7vw;
+    letter-spacing: 2px;
+    /* background-color: lightgray; */
+}
+
+#topnav a {
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+    color: white;
+}
+
+#topnav a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#icons {
+    padding-right: 5vw;
+}
+
+#icons a {
+    font-size: 1.5vw;
+    margin: 0 0.6vw;
+    text-decoration: none;
+    color: rgb(187, 186, 186);
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+}
+
+#icons a:hover {
+    color: red;
+}
+
+#teams {
+    position: relative;
+}
+
+#teams-list {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 0vh;
+    background-color: rgb(28, 29, 34);
+    /* background-color: lightslategray; */
+    text-align: left;
+    padding-left: 10%;
+    line-height: 5vh;
+    width: 100%;
+    z-index: 0;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+
+/* Intro */
+
+#intro {
+    height: 100%;
+    background-color: lightblue;
+}
+
+
+/* Message */
+
+#intro {
+    height: 100%;
+    background-color: green;
+}
+
+
+/* Articles */
+
+#articles {
+    height: 100%;
+    background-color: red;
+}
+
+
+/* Social Media */
+
+#socialmedia {
+    height: 100%;
+    background-color: blue;
+}
+
+
+/* Member */
+
+#member {
+    height: 100%;
+    background-color: lightgray;
+}
+
+
+/* Contact */
+
+#contact {
+    height: 100%;
+    background-color: lightsalmon;
+}
