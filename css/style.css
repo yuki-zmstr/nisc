@@ -11,6 +11,7 @@ body {
     position: relative;
     background-color: white;
     color: black;
+    font-family: "M PLUS Rounded 1c";
 }
 
 
@@ -20,15 +21,27 @@ body {
     height: 100vh;
     width: 100%;
     margin: auto;
-    padding: 20%;
-    background-color: lightblue;
+    padding: 12%;
+    background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/nus-bg.jpg");
-    background-size: 100%;
+    background-size: 70%;
     background-position-y: 30%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+}
+
+#intro h3 {
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 2vw;
+    margin-top: 1vh;
+    line-height: 10vh;
 }
 
 #intro p {
     width: 100%;
+    font-size: 1rem;
+    line-height: 4vh;
 }
 
 
