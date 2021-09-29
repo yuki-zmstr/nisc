@@ -22,6 +22,9 @@ body {
     margin: auto;
     padding: 20%;
     background-color: lightblue;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/nus-bg.jpg");
+    background-size: 100%;
+    background-position-y: 30%;
 }
 
 #intro p {
