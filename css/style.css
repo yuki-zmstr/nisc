@@ -171,7 +171,7 @@ body {
 /* Copyright */
 
 #copyright {
-    height: fit-content;
+    height: 8vh;
     width: 100%;
     margin: auto;
     background-color: lightslategrey;
