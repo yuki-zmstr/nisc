@@ -22,6 +22,7 @@ body {
     width: 100%;
     margin: auto;
     padding: 12%;
+    padding-bottom: 15%;
     background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/nus-bg.jpg");
     background-size: 70%;
@@ -32,7 +33,7 @@ body {
 
 #intro h3 {
     width: 100%;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 2vw;
     margin-top: 1vh;
     line-height: 10vh;
@@ -41,6 +42,7 @@ body {
 #intro p {
     width: 100%;
     font-size: 1rem;
+    letter-spacing: 1px;
     line-height: 4vh;
 }
 
@@ -76,14 +78,13 @@ body {
     height: 100vh;
     width: 100%;
     margin: auto;
-    padding: 12%;
+    padding: 20% 12%;
     background-color: lightskyblue
 }
 
 #articles h3 {
     width: 100%;
     letter-spacing: 1px;
-    font-size: 2vw;
     margin-top: 1vh;
     line-height: 10vh;
 }
@@ -101,12 +102,21 @@ body {
     height: 100vh;
     width: 100%;
     margin: auto;
-    padding: 20%;
+    padding: 20% 12%;
     background-color: yellowgreen;
+}
+
+#socialmedia h3 {
+    width: 100%;
+    letter-spacing: 1px;
+    margin-top: 1vh;
+    line-height: 10vh;
 }
 
 #socialmedia p {
     width: 100%;
+    font-size: 1rem;
+    line-height: 4vh;
 }
 
 
@@ -116,12 +126,21 @@ body {
     height: 100vh;
     width: 100%;
     margin: auto;
-    padding: 20%;
+    padding: 20% 12%;
     background-color: lightgray;
+}
+
+#members h3 {
+    width: 100%;
+    letter-spacing: 1px;
+    margin-top: 1vh;
+    line-height: 10vh;
 }
 
 #members p {
     width: 100%;
+    font-size: 1rem;
+    line-height: 4vh;
 }
 
 
@@ -131,25 +150,32 @@ body {
     height: 100vh;
     width: 100%;
     margin: auto;
-    padding: 20%;
+    padding: 20% 12%;
     background-color: lightsalmon;
+}
+
+#contact h3 {
+    width: 100%;
+    letter-spacing: 1px;
+    margin-top: 1vh;
+    line-height: 10vh;
 }
 
 #contact p {
     width: 100%;
+    font-size: 1rem;
+    line-height: 4vh;
 }
 
 
 /* Copyright */
 
 #copyright {
-    height: 5vh;
+    height: fit-content;
     width: 100%;
     margin: auto;
-    padding: 20%;
     background-color: lightslategrey;
-}
-
-#copyright p {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
