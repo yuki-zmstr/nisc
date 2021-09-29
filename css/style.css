@@ -18,14 +18,14 @@ body {
 /* Intro */
 
 #intro {
-    height: 100vh;
+    height: 125vh;
     width: 100%;
     margin: auto;
     padding: 12%;
     background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/nus-bg.jpg");
     background-size: 70%;
-    background-position-y: 30%;
+    background-position-y: 60%;
     background-position-x: 100%;
     background-repeat: no-repeat;
 }
@@ -51,12 +51,22 @@ body {
     height: 100vh;
     width: 100%;
     margin: auto;
-    padding: 20%;
-    background-color: green;
+    padding: 12%;
+    padding-left: 50%;
+    background-color: white;
+}
+
+#message h3 {
+    width: 100%;
+    letter-spacing: 1px;
+    margin-top: 1vh;
+    line-height: 10vh;
 }
 
 #message p {
     width: 100%;
+    font-size: 1rem;
+    line-height: 4vh;
 }
 
 
@@ -66,12 +76,22 @@ body {
     height: 100vh;
     width: 100%;
     margin: auto;
-    padding: 20%;
+    padding: 12%;
     background-color: lightskyblue
+}
+
+#articles h3 {
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 2vw;
+    margin-top: 1vh;
+    line-height: 10vh;
 }
 
 #articles p {
     width: 100%;
+    font-size: 1rem;
+    line-height: 4vh;
 }
 
 
