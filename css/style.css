@@ -24,6 +24,10 @@ body {
     background-color: lightblue;
 }
 
+#intro p {
+    width: 100%;
+}
+
 
 /* Message */
 
@@ -33,6 +37,10 @@ body {
     margin: auto;
     padding: 20%;
     background-color: green;
+}
+
+#message p {
+    width: 100%;
 }
 
 
@@ -46,6 +54,10 @@ body {
     background-color: lightskyblue
 }
 
+#articles p {
+    width: 100%;
+}
+
 
 /* Social Media */
 
@@ -55,6 +67,10 @@ body {
     margin: auto;
     padding: 20%;
     background-color: yellowgreen;
+}
+
+#socialmedia p {
+    width: 100%;
 }
 
 
@@ -68,6 +84,10 @@ body {
     background-color: lightgray;
 }
 
+#members p {
+    width: 100%;
+}
+
 
 /* Contact */
 
@@ -79,6 +99,10 @@ body {
     background-color: lightsalmon;
 }
 
+#contact p {
+    width: 100%;
+}
+
 
 /* Copyright */
 
@@ -88,4 +112,8 @@ body {
     margin: auto;
     padding: 20%;
     background-color: lightslategrey;
+}
+
+#copyright p {
+    width: 100%;
 }
