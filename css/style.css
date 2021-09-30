@@ -19,7 +19,7 @@ body {
 
 #sidenav {
     position: fixed;
-    right: 8vw;
+    right: 6vw;
     top: 50vh;
     transform: translate(0, -50%);
     font-family: 'Raleway', sans-serif;
@@ -36,7 +36,7 @@ body {
     -webkit-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out;
     color: rgb(85, 85, 85);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 2.5rem;
 }
 
