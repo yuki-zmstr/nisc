@@ -131,7 +131,7 @@ body {
     width: 100%;
     margin: auto;
     padding: 20% 12%;
-    background-color: lightskyblue
+    /* background-color: lightskyblue */
 }
 
 #articles h3 {
@@ -155,7 +155,7 @@ body {
     width: 100%;
     margin: auto;
     padding: 20% 12%;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 
 #socialmedia h3 {
@@ -179,7 +179,7 @@ body {
     width: 100%;
     margin: auto;
     padding: 20% 12%;
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
 #members h3 {
@@ -203,7 +203,7 @@ body {
     width: 100%;
     margin: auto;
     padding: 20% 12%;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
 }
 
 #contact h3 {
@@ -226,7 +226,7 @@ body {
     height: 8vh;
     width: 100%;
     margin: auto;
-    background-color: lightslategrey;
+    /* background-color: lightslategrey; */
     display: flex;
     align-items: center;
     text-align: center;
