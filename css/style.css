@@ -158,6 +158,23 @@ body {
     line-height: 4vh;
 }
 
+#articles a {
+    color: black;
+    border: 2px solid pink;
+    letter-spacing: 3px;
+    text-transform: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#articles a::before {
+    background: rgb(192, 125, 255);
+}
+
+#articles a:hover {
+    text-decoration: none
+}
+
 
 /* Social Media */
 
@@ -180,6 +197,19 @@ body {
     width: 100%;
     font-size: 1rem;
     line-height: 4vh;
+}
+
+#socialmedia a {
+    font-size: 3rem;
+    margin: 0 20px;
+    text-decoration: none;
+    color: rgb(187, 186, 186);
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+}
+
+#socialmedia a:hover {
+    color: rgb(87, 87, 255);
 }
 
 
