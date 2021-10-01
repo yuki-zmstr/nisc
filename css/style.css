@@ -64,6 +64,14 @@ body {
 }
 
 
+/* Logo */
+
+#logo {
+    position: fixed;
+    z-index: 9999;
+}
+
+
 /* Intro */
 
 #intro {
