@@ -67,8 +67,11 @@ body {
 /* Logo */
 
 #logo {
+    top: 7vh;
+    left: 3vw;
     position: fixed;
     z-index: 9999;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
