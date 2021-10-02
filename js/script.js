@@ -1,6 +1,13 @@
 $(document).ready(function() {
-    $("body")
-    .css({ overflow: "hidden"})
+    
+
+    $(function() {
+        $("body, html").css({ 'overflow': "hidden", height: '100%' })
+        setTimeout(function() {
+            $("body, html").css({ overflow: 'auto', 'overflow-x': 'hidden', height: 'auto' })
+        }, 7000)
+    });
+    
 
     $("#catch")
     .css({"background-image": "linear-gradient(to bottom, rgb(255, 255, 255), rgb(0, 0, 255, 0.2))"})
@@ -17,7 +24,7 @@ $(document).ready(function() {
     .css({opacity: 0, "display": "block"})
     .animate({opacity:1}, 1500);
 
-    $("$main")
+    $(".main")
     .delay(7000)
     .css({ opacity: 0.0, visibility: "visible" })
     .animate({ opacity: 1.0 }, 1000)

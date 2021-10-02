@@ -7,7 +7,6 @@ html {
 html,
 body {
     width: 100%;
-    /* overflow-x: hidden; */
     position: relative;
     /* background-color: white; */
     color: black;
@@ -17,6 +16,11 @@ body {
 .main {
     visibility: hidden;
 }
+
+
+/* #catch {
+    visibility: visis;
+} */
 
 
 /* Catch */
@@ -96,7 +100,7 @@ body {
 #logo {
     top: 7vh;
     left: 3vw;
-    /* position: fixed; */
+    position: fixed;
     z-index: 9999;
     font-family: 'DM Sans', sans-serif;
 }
