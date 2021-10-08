@@ -143,6 +143,12 @@ body {
     background-repeat: no-repeat;
     border: black 3px solid;
     margin: 10px;
+    position: relative;
+}
+
+.article-wrapper p {
+    position: absolute;
+    bottom: 0;
 }
 
 
