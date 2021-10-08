@@ -122,6 +122,32 @@ body {
     padding: 1% 0;
 }
 
+
+/* Scroll Menu */
+
+.scrollmenu {
+    width: 80vw;
+    margin: auto;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.article-wrapper {
+    height: 0;
+    width: 15%;
+    padding-bottom: 15%;
+    display: inline-block;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/capy_baby.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: black 3px solid;
+    margin: 10px;
+}
+
+
+/* Copyright */
+
 #copyright {
     height: 8vh;
     width: 100%;
