@@ -127,7 +127,7 @@ body {
 
 .scrollmenu {
     width: 70vw;
-    margin: 0 10%;
+    margin: 0 15%;
     overflow: auto;
     white-space: nowrap;
 }
