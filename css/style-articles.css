@@ -105,7 +105,7 @@ body {
     width: 100%;
     margin: auto;
     height: fit-content;
-    padding: 10vh 30vh;
+    padding: 15vh 30vw 5vh 15vw;
     /* background-color: lightgreen; */
     font-size: 1.5rem;
 }
@@ -126,8 +126,8 @@ body {
 /* Scroll Menu */
 
 .scrollmenu {
-    width: 80vw;
-    margin: auto;
+    width: 70vw;
+    margin: 0 10%;
     overflow: auto;
     white-space: nowrap;
 }
@@ -142,6 +142,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     border: black 3px solid;
+    border-radius: 10px;
     margin: 10px;
     position: relative;
 }
@@ -149,6 +150,7 @@ body {
 .article-wrapper p {
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 
