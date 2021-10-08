@@ -85,15 +85,15 @@ body {
     margin: auto;
     /* padding: 20% 12% 5% 50%; */
     background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/erc.jpg");
-    background-size: ;
-    background-position-y: 80%;
+    background-size: 100%;
+    background-position-y: 85%;
     background-position-x: -10%;
 }
 
 #header p {
     /* width: 100%; */
     margin: auto;
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     line-height: 4vh;
 }
