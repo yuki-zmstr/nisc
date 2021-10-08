@@ -1,0 +1,110 @@
+/* BASIC SETUP */
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+html,
+body {
+    width: 100%;
+    position: relative;
+    /* background-color: white; */
+    color: black;
+    font-family: "M PLUS Rounded 1c";
+}
+
+
+/* SideNav */
+
+#sidenav {
+    position: fixed;
+    right: 6vw;
+    top: 50vh;
+    transform: translate(0, -50%);
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 2;
+}
+
+#sidenav ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+#sidenav li {
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+    color: rgb(85, 85, 85);
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+}
+
+#sidenav li:after {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    content: "";
+    background-color: black;
+    display: block;
+    position: absolute;
+    left: 10px;
+}
+
+#sidenav li:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#sidenav li:hover:after {
+    -webkit-transform: translate(0, -250%);
+    transform: translate(0, -250%);
+    border-color: transparent #000 #000 transparent;
+    border-style: solid;
+    border-width: 0px 0px 10px 10px;
+}
+
+
+/* Logo */
+
+#logo {
+    top: 7vh;
+    left: 3vw;
+    position: fixed;
+    z-index: 9999;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+}
+
+
+/* Header */
+
+#header {
+    height: 40vh;
+    width: 100%;
+    margin: auto;
+    /* padding: 20% 12% 5% 50%; */
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/erc.jpg");
+    background-size: 100%;
+    background-position-y: 80%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+}
+
+#header p {
+    /* width: 100%; */
+    margin: auto;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 4vh;
+}
+
+
+/* Section */
+
+.section {
+    width: 100%;
+    height: fit-content;
+    padding: 10vh 20vh;
+    background-color: green;
+}
