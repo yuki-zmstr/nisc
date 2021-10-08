@@ -121,3 +121,13 @@ body {
     margin: none;
     padding: 1% 0;
 }
+
+#copyright {
+    height: 8vh;
+    width: 100%;
+    margin: auto;
+    /* background-color: lightslategrey; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
