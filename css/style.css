@@ -266,7 +266,7 @@ body {
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
-    margin: auto;
+    margin: 1.5vh auto;
 }
 
 #members img {
@@ -275,11 +275,25 @@ body {
     margin-left: -80px;
 }
 
-#members p {
+#members h6,
+h5 {
     width: 100%;
     text-align: center;
     line-height: 2vh;
+    margin-top: 1vh;
+}
+
+#members h6 {
+    font-size: 0.8rem;
+}
+
+#members h5 {
+    font-size: 1.3rem;
+}
+
+#members p {
     margin-top: 2vh;
+    text-align: center;
 }
 
 .icons {
