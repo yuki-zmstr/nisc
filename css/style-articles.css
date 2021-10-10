@@ -15,6 +15,28 @@ body {
 }
 
 
+/* width */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    display: none;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(252, 185, 255);
+    border-radius: 10px;
+}
+
+
 /* SideNav */
 
 #sidenav {
