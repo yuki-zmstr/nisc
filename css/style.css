@@ -325,11 +325,11 @@ h5 {
     width: 100%;
     text-align: center;
     line-height: 2vh;
-    margin-top: 1vh;
 }
 
 #members h6 {
     font-size: 0.8rem;
+    margin-top: 2vh;
 }
 
 #members h5 {
