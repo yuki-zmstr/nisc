@@ -159,7 +159,7 @@ body {
 /* Intro */
 
 #intro {
-    width: 100%;
+    width: 100vw;
     height: 125vh;
     margin: 0px;
     padding: 0px;
@@ -198,7 +198,6 @@ body {
     width: 100%;
     margin: auto;
     padding: 20% 12% 5% 50%;
-    background-color: white;
 }
 
 #message h3 {
