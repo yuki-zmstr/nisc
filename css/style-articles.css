@@ -166,9 +166,19 @@ body {
     background-color: #F5F5F5;
 }
 
-.scrollmenu::-webkit-scrollbar-thumb {
+.scrollmenu.blue::-webkit-scrollbar-thumb {
     border-radius: 15px;
     background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.25, rgb(123, 155, 218)), color-stop(0.5, rgb(81, 138, 207)), color-stop(0.75, rgb(91, 122, 214)));
+}
+
+.scrollmenu.orange::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.25, rgba(255, 166, 0, 0.4)), color-stop(0.5, rgba(255, 166, 0, 0.5)), color-stop(0.75, rgba(255, 166, 0, 0.8)));
+}
+
+.scrollmenu.yellow::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.25, rgba(255, 255, 0, 0.4)), color-stop(0.5, rgba(255, 255, 0, 0.5)), color-stop(0.75, rgba(255, 255, 0, 0.8)));
 }
 
 .article-wrapper {
@@ -178,7 +188,8 @@ body {
     padding-bottom: 15%;
     display: inline-block;
     text-align: center;
-    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/capy_baby.jpg");
+    /* background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/capy_baby.jpg"); */
+    background-image: url("../img/capy_baby.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -190,6 +201,18 @@ body {
 
 .article-wrapper:hover {
     top: -10px;
+}
+
+.article-wrapper.blue {
+    background-color: rgb(81, 138, 207, 0.2);
+}
+
+.article-wrapper.orange {
+    background-color: rgba(255, 166, 0, 0.2);
+}
+
+.article-wrapper.yellow {
+    background-color: rgba(255, 255, 0, 0.2);
 }
 
 
