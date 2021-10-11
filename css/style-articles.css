@@ -173,12 +173,12 @@ body {
 
 .scrollmenu.orange::-webkit-scrollbar-thumb {
     border-radius: 15px;
-    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.25, rgba(255, 166, 0, 0.4)), color-stop(0.5, rgba(255, 166, 0, 0.5)), color-stop(0.75, rgba(255, 166, 0, 0.8)));
+    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.25, rgba(255, 166, 0, 0.4)), color-stop(0.5, rgba(255, 166, 0, 0.6)), color-stop(0.75, rgba(255, 166, 0, 0.8)));
 }
 
 .scrollmenu.yellow::-webkit-scrollbar-thumb {
     border-radius: 15px;
-    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.25, rgba(255, 255, 0, 0.4)), color-stop(0.5, rgba(255, 255, 0, 0.5)), color-stop(0.75, rgba(255, 255, 0, 0.8)));
+    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.25, rgba(255, 255, 0, 0.4)), color-stop(0.5, rgba(255, 255, 0, 0.6)), color-stop(0.75, rgba(255, 255, 0, 0.8)));
 }
 
 .article-wrapper {
