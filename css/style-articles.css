@@ -189,7 +189,6 @@ body {
     padding-bottom: 15%;
     display: inline-block;
     text-align: center;
-    /* background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/capy_baby.jpg"); */
     background-image: url("../img/capy_baby.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -209,7 +208,7 @@ body {
 }
 
 .article-wrapper.orange {
-    background-color: rgba(255, 166, 0, 0.2);
+    background-color: rgba(255, 166, 0, 0.3);
 }
 
 .article-wrapper.yellow {
