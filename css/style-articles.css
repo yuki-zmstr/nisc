@@ -164,6 +164,7 @@ body {
 
 .scrollmenu::-webkit-scrollbar {
     background-color: #F5F5F5;
+    border-radius: 10px
 }
 
 .scrollmenu.blue::-webkit-scrollbar-thumb {
