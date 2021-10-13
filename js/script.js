@@ -56,4 +56,22 @@ $(document).ready(function() {
         
       }).scroll();
     
+      // member pop up
+      $popup = $('.popup');
+      $(document).mousemove(function(){
+        $popup.each(function() {
+          var $this = $(this)
+          var to_pop = "#" + $this.data('name');
+          var $to_pop = $(to_pop)
+          $this.hover(function(){
+            $to_pop.fadeIn(400);
+          }, function() {
+            $to_pop.fadeOut(400)
+          })
+        })
+      })
+      // setInterval(function(){
+        
+      // }, 200)
+      
 });

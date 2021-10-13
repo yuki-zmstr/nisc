@@ -320,6 +320,62 @@ body {
     height: 100%;
 }
 
+.talk-bubble {
+    position: absolute;
+    left: -8vw;
+    top: 3vh;
+    width: 12vw;
+    background-color: lightyellow;
+    padding: 10px;
+    z-index: 1;
+}
+
+.round {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+
+/* Right triangle, right side slightly down*/
+
+.tri-right.border.right-in:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -40px;
+    top: 30px;
+    bottom: auto;
+    border: 20px solid;
+    border-color: #666 transparent transparent #666;
+}
+
+.tri-right.right-in:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -20px;
+    top: 38px;
+    bottom: auto;
+    border: 12px solid;
+    border-color: lightyellow transparent transparent lightyellow;
+}
+
+#sho,
+#yuichiro,
+#yoh,
+#ikki,
+#yuya,
+#yuki,
+#ayumi,
+#ui {
+    display: none;
+}
+
 #members h6,
 h5 {
     width: 100%;
