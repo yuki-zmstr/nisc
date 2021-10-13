@@ -326,7 +326,7 @@ body {
     top: 3vh;
     width: 12vw;
     background-color: lightyellow;
-    padding: 10px;
+    padding: 3%;
     z-index: 1;
 }
 
@@ -339,28 +339,14 @@ body {
 
 /* Right triangle, right side slightly down*/
 
-.tri-right.border.right-in:before {
-    content: ' ';
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: auto;
-    right: -40px;
-    top: 30px;
-    bottom: auto;
-    border: 20px solid;
-    border-color: #666 transparent transparent #666;
-}
-
 .tri-right.right-in:after {
     content: ' ';
     position: absolute;
     width: 0;
     height: 0;
     left: auto;
-    right: -20px;
-    top: 38px;
-    bottom: auto;
+    right: -1vw;
+    top: 4vh;
     border: 12px solid;
     border-color: lightyellow transparent transparent lightyellow;
 }
