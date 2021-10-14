@@ -194,9 +194,31 @@ body {
     height: 40vh;
     width: fit-content;
     margin: auto;
-    margin-top: 30vh;
+    margin-top: 40vh;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
+    position: relative;
+}
+
+#message .img1 {
+    position: absolute;
+    top: -30vh;
+    left: -30vw;
+    width: 90%;
+}
+
+#message .img2 {
+    position: absolute;
+    top: 30vh;
+    right: -20vw;
+    width: 60%;
+}
+
+#message .text {
+    background-color: white;
+    z-index: 1;
+    padding: 6%;
+    margin-left: 10vw;
 }
 
 
@@ -222,7 +244,7 @@ body {
     width: 100%;
     margin: auto;
     padding: 20% 12%;
-    /* background-color: lightskyblue */
+    background-color: rgba(135, 206, 250, 0.294)
 }
 
 #articles h3 {
@@ -244,7 +266,8 @@ body {
     letter-spacing: 3px;
     text-transform: none;
     font-size: 1rem;
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-family: 'Shippori Mincho', serif;
 }
 
 #articles a::before {
