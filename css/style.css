@@ -250,8 +250,9 @@ body {
 #articles h3 {
     width: 100%;
     letter-spacing: 1px;
-    margin-top: 1vh;
+    margin-bottom: 3vh;
     line-height: 10vh;
+    font-size: 4rem;
 }
 
 #articles p {
@@ -285,24 +286,30 @@ body {
     height: 100vh;
     width: 100%;
     margin: auto;
-    padding: 20% 12%;
     /* background-color: yellowgreen; */
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    position: relative;
 }
 
-#socialmedia h3 {
-    width: 100%;
-    letter-spacing: 1px;
-    margin-top: 1vh;
-    line-height: 10vh;
+#socialmedia .text {
+    background-color: white;
+    height: 40vh;
+    z-index: 1;
+    margin: auto;
+    position: absolute;
+    left: 10vw;
+    top: 30vh;
+    padding: 3%;
 }
 
 #socialmedia p {
-    width: 100%;
-    font-size: 1rem;
-    line-height: 4vh;
+    font-size: 2rem;
+    line-height: 3vw;
 }
 
-#socialmedia a {
+
+/* #socialmedia a {
     font-size: 3rem;
     margin: 0 20px;
     text-decoration: none;
@@ -313,7 +320,7 @@ body {
 
 #socialmedia a:hover {
     color: rgba(0, 4, 251, 0.205);
-}
+} */
 
 
 /* Members */
