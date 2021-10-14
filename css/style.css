@@ -354,9 +354,35 @@ body {
     height: 40vh;
     overflow: hidden;
     margin: auto;
+    position: relative;
 }
 
-.talk-bubble {
+.pop-up {
+    background-color: rgba(0, 0, 0, 0.609);
+    position: absolute;
+    color: white;
+    width: inherit;
+    bottom: 0;
+    left: 0;
+}
+
+.pop-up a {
+    font-size: 2rem;
+    margin: auto;
+    text-decoration: none;
+    /* color: rgb(187, 186, 186); */
+    color: white;
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+}
+
+.pop-up a:hover {
+    color: rgba(168, 168, 255, 0.849);
+    /* color: rgb(250, 118, 77); */
+}
+
+
+/* .talk-bubble {
     position: absolute;
     left: -8vw;
     top: 3vh;
@@ -370,12 +396,13 @@ body {
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
-}
+} */
 
 
 /* Right triangle, right side slightly down*/
 
-.tri-right.right-in:after {
+
+/* .tri-right.right-in:after {
     content: ' ';
     position: absolute;
     width: 0;
@@ -385,7 +412,7 @@ body {
     top: 4vh;
     border: 12px solid;
     border-color: lightyellow transparent transparent lightyellow;
-}
+} */
 
 #sho,
 #yuichiro,
@@ -419,21 +446,6 @@ h6 {
     width: 100%;
     margin: auto;
     padding: 0 4vw;
-}
-
-#members a {
-    font-size: 2rem;
-    margin: auto;
-    text-decoration: none;
-    /* color: rgb(187, 186, 186); */
-    color: rgba(0, 0, 255, 0.65);
-    -webkit-transition: color 0.4s ease-in-out;
-    transition: color 0.4s ease-in-out;
-}
-
-#members a:hover {
-    color: rgba(87, 87, 255, 0.205);
-    /* color: rgb(250, 118, 77); */
 }
 
 
