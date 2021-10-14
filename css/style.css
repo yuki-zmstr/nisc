@@ -191,7 +191,7 @@ body {
 /* Message */
 
 #message {
-    height: 40vh;
+    height: 45vh;
     width: fit-content;
     margin: auto;
     margin-top: 40vh;
@@ -202,16 +202,16 @@ body {
 
 #message .img1 {
     position: absolute;
-    top: -30vh;
+    top: -20vh;
     left: -30vw;
     width: 90%;
 }
 
 #message .img2 {
     position: absolute;
-    top: 30vh;
+    top: 40vh;
     right: -20vw;
-    width: 60%;
+    width: 70%;
 }
 
 #message .text {
@@ -242,7 +242,7 @@ body {
 #articles {
     height: 80vh;
     width: 85vw;
-    margin-top: 5vh;
+    margin-top: 15vh;
     padding: 10% 15%;
     background-color: rgba(29, 49, 86, 0.815);
     color: white
