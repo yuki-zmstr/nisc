@@ -461,6 +461,15 @@ h6 {
     position: relative;
 }
 
+#contact .box {
+    height: fit-content;
+    background-color: rgb(187, 238, 255);
+    z-index: 1;
+    padding: 2%;
+    position: absolute;
+    right: 12vw;
+}
+
 #contact h3 {
     width: 100%;
     letter-spacing: 1px;
@@ -482,7 +491,7 @@ h5 {
 #contact img {
     position: absolute;
     top: 25vh;
-    right: -20vw;
+    right: 15vw;
     /* width: 60%; */
 }
 
