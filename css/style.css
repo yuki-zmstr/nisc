@@ -328,7 +328,7 @@ body {
 
 #members {
     height: fit-content;
-    width: 80%;
+    width: 75%;
     margin: auto;
     background-color: lightblue;
 }
@@ -425,7 +425,7 @@ body {
 
 #members h5 {
     margin-top: 3vh;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 #members h5,
