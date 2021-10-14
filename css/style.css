@@ -464,7 +464,6 @@ h6 {
 #contact h3 {
     width: 100%;
     letter-spacing: 1px;
-    margin-top: 1vh;
     line-height: 10vh;
 }
 
@@ -482,7 +481,7 @@ h5 {
 
 #contact img {
     position: absolute;
-    top: 30vh;
+    top: 25vh;
     right: -20vw;
     /* width: 60%; */
 }
