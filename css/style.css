@@ -272,11 +272,12 @@ body {
 }
 
 #articles a::before {
-    background: rgb(192, 125, 255);
+    background: rgb(215, 171, 255);
 }
 
 #articles a:hover {
-    text-decoration: none
+    text-decoration: none;
+    color: white
 }
 
 
@@ -333,25 +334,27 @@ body {
     /* background-color: lightgray; */
 }
 
-#members h3 {
+#members h2 {
     width: 100%;
     letter-spacing: 1px;
     margin-top: 1vh;
     line-height: 10vh;
 }
 
-.circular--landscape {
-    /* display: inline  -block; */
+
+/* .circular--landscape {
     width: 10vw;
     height: 10vw;
     overflow: hidden;
     border-radius: 50%;
     margin: 1.5vh auto;
-}
+} */
 
-#members img {
-    width: auto;
-    height: 100%;
+.rect {
+    width: 15vw;
+    height: 40vh;
+    overflow: hidden;
+    margin: auto;
 }
 
 .talk-bubble {
@@ -396,20 +399,9 @@ body {
     display: none;
 }
 
-#members h6,
-h5 {
-    width: 100%;
-    text-align: center;
-    line-height: 2vh;
-}
-
-#members h6 {
-    font-size: 0.8rem;
-    margin-top: 2vh;
-}
-
 #members h5 {
-    font-size: 1.3rem;
+    margin-top: 3vh;
+    font-size: 2rem;
 }
 
 #members p {
