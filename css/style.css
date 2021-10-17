@@ -36,14 +36,14 @@ body {
     border-radius: 10px;
 }
 
-#main {
+
+/* #main {
     visibility: hidden;
-}
-
-
-/* #catch {
-    display: none;
 } */
+
+#catch {
+    display: none;
+}
 
 #catch {
     width: 100%;
