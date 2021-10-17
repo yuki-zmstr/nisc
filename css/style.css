@@ -165,6 +165,7 @@ body {
 
 #message {
     width: fit-content;
+    height: 50vh;
     margin: auto;
     margin-top: 40vh;
     -ms-writing-mode: tb-rl;
@@ -191,12 +192,11 @@ body {
     z-index: 1;
     padding: 4vh 1vw;
     margin-left: 10vw;
-    height: 50vh;
 }
 
 #message p {
     letter-spacing: 1px;
-    line-height: 2.2vw;
+    line-height: 2.1vw;
     font-size: 1.2rem;
 }
 
@@ -217,12 +217,12 @@ body {
     letter-spacing: 1px;
     margin-bottom: 3vh;
     line-height: 10vh;
-    font-size: 4rem;
+    font-size: 4.2rem;
 }
 
 #articles p {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 4vh;
 }
 
