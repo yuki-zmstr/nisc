@@ -36,15 +36,14 @@ body {
     border-radius: 10px;
 }
 
-
-/* 
 #main {
     visibility: hidden;
-} */
-
-#catch {
-    display: none;
 }
+
+
+/* #catch {
+    display: none;
+} */
 
 #catch {
     width: 100%;
@@ -52,7 +51,6 @@ body {
     margin: 0px;
     padding: 0px;
     position: absolute;
-    /* background: black; */
     z-index: 1;
 }
 
@@ -64,30 +62,6 @@ body {
     font-size: 3rem;
     line-height: 10vh;
     letter-spacing: 2px;
-}
-
-
-/* colours */
-
-
-/* .color-white {
-    background-color: red;
-} */
-
-.color-blue {
-    background-color: rgb(158, 231, 255, 0.5)
-}
-
-.color-pink {
-    background-color: rgba(2, 192, 255, 0.8)
-}
-
-.color-beige {
-    background-color: rgba(251, 222, 218, 255)
-}
-
-.color-indigo {
-    background-color: rgb(75, 0, 129, 0.2);
 }
 
 
@@ -330,7 +304,6 @@ body {
     height: fit-content;
     width: 75%;
     margin: auto;
-    /* background-color: lightblue; */
     padding-bottom: 5%;
     position: relative;
 }
@@ -343,6 +316,13 @@ body {
     position: absolute;
     z-index: -1;
     right: -20vw;
+}
+
+#members .biz-img {
+    position: absolute;
+    top: -30vh;
+    right: -10vw;
+    width: 65%;
 }
 
 #members h3 {
@@ -513,7 +493,7 @@ h5 {
     height: 8vh;
     width: 40%;
     margin: auto;
-    /* background-color: lightslategrey; */
+    margin-top: 10vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -521,7 +501,7 @@ h5 {
 
 #copyright .icons {
     width: 100%;
-    padding: 0 15vw;
+    padding: 0 17vw;
 }
 
 #copyright a {
