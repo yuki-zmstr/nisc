@@ -261,7 +261,7 @@ body {
     height: 100vh;
     width: 100%;
     margin: auto;
-    /* background-color: yellowgreen; */
+    margin-bottom: 10vh;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     position: relative;
