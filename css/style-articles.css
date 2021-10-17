@@ -140,8 +140,18 @@ body {
 }
 
 .section p {
-    margin: none;
-    padding: 1% 0;
+    position: relative;
+}
+
+.section p::after {
+    content: "";
+    height: 12vh;
+    width: 10vw;
+    position: absolute;
+    top: -6vh;
+    left: -5vw;
+    background-color: rgb(29, 49, 86, 0.4);
+    z-index: -1;
 }
 
 
@@ -149,7 +159,7 @@ body {
 
 .scrollmenu {
     width: 70vw;
-    margin: 0 15%;
+    margin: 3vh auto;
     overflow: auto;
     white-space: nowrap;
 }
@@ -212,23 +222,6 @@ body {
 .article-wrapper.yellow {
     background-color: rgba(255, 255, 0, 0.2);
 }
-
-
-/* .shadowed {
-    position: relative;
-}
-
-.shadowed::after {
-    border-radius: 10px;
-    box-shadow: -rgb(109, 0, 0);
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-} */
 
 .article-wrapper p {
     position: absolute;
