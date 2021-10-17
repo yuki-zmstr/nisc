@@ -190,7 +190,7 @@ body {
     background-image: url("../img/capy_baby.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin: 0.5vw;
     position: relative;
     -webkit-transition: top 0.3s ease-in-out;
