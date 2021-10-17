@@ -33,6 +33,7 @@ body {
 
  ::-webkit-scrollbar-thumb {
     background: rgb(252, 185, 255);
+    /* background: rgb(29, 49, 86); */
 }
 
 
@@ -250,7 +251,7 @@ body {
     height: 100vh;
     width: 100%;
     margin: auto;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     position: relative;
