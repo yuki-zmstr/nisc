@@ -1,4 +1,4 @@
-/* BASIC SETUP */
+/* -------------------BASIC SETUP -------------------*/
 
 html {
     scroll-behavior: smooth;
@@ -35,7 +35,7 @@ body {
 }
 
 
-/* SideNav */
+/* -------------------SideNav -------------------*/
 
 #sidenav {
     position: fixed;
@@ -85,7 +85,7 @@ body {
 }
 
 
-/* Logo */
+/*------------------- Logo -------------------*/
 
 #logo {
     top: 7vh;
@@ -97,7 +97,7 @@ body {
 }
 
 
-/* Header */
+/*------------------- Header -------------------*/
 
 #header {
     height: 35vh;
@@ -110,7 +110,6 @@ body {
 }
 
 #header p {
-    /* width: 100%; */
     margin: auto;
     font-size: 1.5rem;
     letter-spacing: 1px;
@@ -121,7 +120,7 @@ body {
 }
 
 
-/* Section */
+/*------------------- Section -------------------*/
 
 .section {
     width: 100%;
@@ -155,7 +154,7 @@ body {
 }
 
 
-/* Scroll Menu */
+/*------------------- Scroll Menu -------------------*/
 
 .scrollmenu {
     width: 70vw;
@@ -230,10 +229,7 @@ body {
 }
 
 
-/* Copyright */
-
-
-/* Copyright */
+/*------------------- Copyright -------------------*/
 
 #copyright {
     height: 8vh;
