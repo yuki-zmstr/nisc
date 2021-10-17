@@ -1,4 +1,4 @@
-/* BASIC SETUP */
+/*------------------- BASIC SETUP -------------------*/
 
 html {
     scroll-behavior: smooth;
@@ -65,7 +65,7 @@ body {
 }
 
 
-/* SideNav */
+/*------------------- SideNav -------------------*/
 
 #sidenav {
     position: fixed;
@@ -115,7 +115,7 @@ body {
 }
 
 
-/* Logo */
+/*------------------- Logo -------------------*/
 
 #logo {
     top: 7vh;
@@ -127,7 +127,7 @@ body {
 }
 
 
-/* Intro */
+/*------------------- Intro -------------------*/
 
 #intro {
     width: 100vw;
@@ -161,7 +161,7 @@ body {
 }
 
 
-/* Message */
+/*------------------- Message -------------------*/
 
 #message {
     width: fit-content;
@@ -201,7 +201,7 @@ body {
 }
 
 
-/* Articles */
+/*------------------- Articles-------------------*/
 
 #articles {
     height: 80vh;
@@ -245,7 +245,7 @@ body {
 }
 
 
-/* Social Media */
+/*------------------- Social Media -------------------*/
 
 #socialmedia {
     height: 100vh;
@@ -274,21 +274,7 @@ body {
 }
 
 
-/* #socialmedia a {
-    font-size: 3rem;
-    margin: 0 20px;
-    text-decoration: none;
-    color: rgba(0, 4, 251, 0.493);
-    -webkit-transition: color 0.4s ease-in-out;
-    transition: color 0.4s ease-in-out;
-}
-
-#socialmedia a:hover {
-    color: rgba(0, 4, 251, 0.205);
-} */
-
-
-/* Members */
+/*------------------- Members -------------------*/
 
 #members {
     height: fit-content;
@@ -328,8 +314,6 @@ body {
 
 .col-md-3 {
     background-color: white;
-    /* padding: 0; */
-    /* margin-right: 1vw; */
 }
 
 .rect {
@@ -362,39 +346,6 @@ body {
     color: rgba(168, 168, 255, 0.849);
     /* color: rgb(250, 118, 77); */
 }
-
-
-/* .talk-bubble {
-    position: absolute;
-    left: -8vw;
-    top: 3vh;
-    width: 12vw;
-    background-color: lightyellow;
-    padding: 3%;
-    z-index: 1;
-}
-
-.round {
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-} */
-
-
-/* Right triangle, right side slightly down*/
-
-
-/* .tri-right.right-in:after {
-    content: ' ';
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: auto;
-    right: -1vw;
-    top: 4vh;
-    border: 12px solid;
-    border-color: lightyellow transparent transparent lightyellow;
-} */
 
 #sho,
 #yuichiro,
@@ -431,7 +382,7 @@ h6 {
 }
 
 
-/* Contact */
+/*------------------- Contact -------------------*/
 
 #contact {
     height: 100vh;
@@ -477,7 +428,7 @@ h5 {
 }
 
 
-/* Copyright */
+/*------------------- Copyright -------------------*/
 
 #copyright {
     height: 8vh;
