@@ -131,8 +131,7 @@ body {
 #intro {
     width: 100vw;
     height: 125vh;
-    margin: 0px;
-    padding: 0px;
+    margin-left: 2vw;
     position: absolute;
     z-index: 1;
     padding: 12%;
