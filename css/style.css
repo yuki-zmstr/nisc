@@ -256,18 +256,18 @@ body {
     margin-bottom: 20vh;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    position: relative;
+    /* position: relative; */
+    padding: 20vh 5vw;
 }
 
 #socialmedia .text {
     background-color: white;
-    height: 40vh;
-    z-index: 1;
-    margin: auto;
-    position: absolute;
-    left: 10vw;
-    top: 30vh;
-    padding: 3%;
+    padding: 10%;
+}
+
+#socialmedia img {
+    width: 25vw;
+    padding: 1vw;
 }
 
 #socialmedia p {
