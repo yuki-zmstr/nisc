@@ -19,12 +19,13 @@ body {
 
 ::-webkit-scrollbar {
     width: 15px;
+    overflow-x: hidden;
 }
 
 
 /* Track */
 
- ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     display: none;
 }
 
@@ -33,7 +34,7 @@ body {
 
  ::-webkit-scrollbar-thumb {
     background: rgb(252, 185, 255);
-    /* background: rgb(29, 49, 86); */
+    width: 15px;
 }
 
 
@@ -150,14 +151,14 @@ body {
 #intro h3 {
     width: 100%;
     letter-spacing: 2px;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-top: 1vh;
     line-height: 10vh;
 }
 
 #intro p {
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 0.9vw;
     letter-spacing: 1px;
     line-height: 4vh;
 }
@@ -260,14 +261,24 @@ body {
     padding: 20vh 5vw;
 }
 
+#socialmedia .col-3,
 #socialmedia .text {
-    background-color: white;
     padding: 10%;
 }
 
 #socialmedia img {
-    width: 25vw;
-    padding: 1vw;
+    width: 20vw;
+    padding: 1%;
+    margin: auto;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#socialmedia img:hover {
+    opacity: 70%;
+    cursor: pointer;
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
 }
 
 #socialmedia p {
