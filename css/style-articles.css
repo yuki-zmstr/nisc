@@ -211,31 +211,31 @@ body {
     top: -10px;
 }
 
-.article-wrapper.orange p {
+.article-wrapper p {
+    font-size: 1.1rem;
     position: absolute;
     bottom: 0;
     width: 100%;
     padding: 10px 0;
     margin-bottom: 0;
+}
+
+.article-wrapper.blue p {
+    background-color: rgb(201, 226, 255);
+}
+
+.article-wrapper.orange p {
     background-color: rgb(255, 177, 141);
 }
 
 .article-wrapper.yellow p {
+    font-size: 1.1rem;
     position: absolute;
     bottom: 0;
     width: 100%;
     padding: 10px 0;
     margin-bottom: 0;
     background-color: rgb(255, 255, 137);
-}
-
-.article-wrapper.blue p {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px 0;
-    margin-bottom: 0;
-    background-color: rgb(201, 226, 255);
 }
 
 #biz {
