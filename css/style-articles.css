@@ -11,6 +11,8 @@ body {
     position: relative;
     color: black;
     font-family: 'Shippori Mincho', serif;
+    overflow-x: hidden;
+    font-size: 15px;
 }
 
 
@@ -46,19 +48,21 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 2;
+    background-color: rgb(255, 255, 255, 0.7);
 }
 
 #sidenav ul {
     list-style: none;
     cursor: pointer;
+    margin: auto;
 }
 
 #sidenav li {
     -webkit-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out;
-    color: rgb(85, 85, 85);
+    color: rgb(58, 58, 58);
     font-size: 1.1rem;
-    line-height: 2.5rem;
+    line-height: 4vh;
 }
 
 #sidenav li:after {
