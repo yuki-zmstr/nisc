@@ -95,9 +95,11 @@ body {
     top: 7vh;
     left: 3vw;
     position: fixed;
+    width: 10vw;
     z-index: 9999;
     font-family: 'DM Sans', sans-serif;
     cursor: pointer;
+    text-align: center;
 }
 
 
