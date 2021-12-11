@@ -225,17 +225,11 @@ body {
 }
 
 .article-wrapper.orange p {
-    background-color: rgb(255, 177, 141);
+    background-color: rgb(229, 195, 155);
 }
 
 .article-wrapper.yellow p {
-    font-size: 1.1rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px 0;
-    margin-bottom: 0;
-    background-color: rgb(255, 255, 137);
+    background-color: rgb(255, 255, 187);
 }
 
 #biz {
