@@ -2,7 +2,6 @@
 
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 html,
@@ -102,6 +101,16 @@ body {
     text-align: center;
 }
 
+#logo h2 {
+    width: 100%;
+    font-size: 2.2rem;
+}
+
+#logo h6 {
+    width: 100%;
+    font-size: 1.1rem;
+}
+
 
 /*------------------- Header -------------------*/
 
@@ -117,7 +126,7 @@ body {
 
 #header p {
     margin: auto;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     letter-spacing: 1px;
     line-height: 4vh;
     padding: 1%;
@@ -133,7 +142,6 @@ body {
     margin: auto;
     height: fit-content;
     padding: 20vh 30vw 0 15vw;
-    font-size: 1.5rem;
     letter-spacing: 1px;
 }
 
@@ -146,6 +154,8 @@ body {
 
 .section p {
     position: relative;
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 .section p::after {
@@ -155,7 +165,7 @@ body {
     position: absolute;
     top: -6vh;
     left: -5vw;
-    background-color: rgb(29, 49, 86, 0.4);
+    background-color: rgba(29, 49, 86, 0.253);
     z-index: -1;
 }
 
@@ -223,6 +233,8 @@ body {
     padding: 10px 0;
     margin-bottom: 0;
     border-radius: 0 0 5px 5px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
 }
 
 .article-wrapper:after {
