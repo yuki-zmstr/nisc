@@ -357,6 +357,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    font-weight: 500;
 }
 
 #copyright .icons {
@@ -365,10 +366,10 @@ body {
 }
 
 #copyright a {
-    font-size: 1.5rem;
+    font-size: 1.67rem;
     margin: auto;
     text-decoration: none;
-    color: rgb(134, 134, 134);
+    color: rgb(109, 109, 109);
     -webkit-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out;
 }
