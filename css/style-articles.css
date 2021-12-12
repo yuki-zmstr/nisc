@@ -143,6 +143,7 @@ body {
     height: fit-content;
     padding: 20vh 30vw 0 15vw;
     letter-spacing: 1px;
+    margin-bottom: 5vh;
 }
 
 .section i {
@@ -247,7 +248,7 @@ body {
     height: 12rem;
     width: 12rem;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75)
+    box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.75)
 }
 
 .article-wrapper.blue p {
