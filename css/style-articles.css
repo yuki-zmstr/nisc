@@ -60,7 +60,7 @@ body {
     -webkit-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out;
     color: rgb(58, 58, 58);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 4vh;
 }
 
@@ -126,11 +126,11 @@ body {
 
 #header p {
     margin: auto;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     line-height: 4vh;
     padding: 1%;
-    background-color: rgb(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
 }
 
