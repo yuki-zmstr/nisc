@@ -1,0 +1,496 @@
+/*------------------- BASIC SETUP -------------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    width: 100%;
+    position: relative;
+    color: black;
+    font-family: 'Shippori Mincho', serif;
+    transition: background-color 1s ease;
+    overflow-x: hidden;
+    font-size: 12px;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 15px;
+    overflow-x: hidden;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(252, 185, 255);
+    width: 15px;
+}
+
+
+/* #main {
+    visibility: hidden;
+} */
+
+#catch {
+    display: none;
+}
+
+#catch {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+#catch-lines {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    line-height: 10vh;
+    letter-spacing: 2px;
+}
+
+
+/*------------------- SideNav -------------------*/
+
+#sidenav {
+    position: fixed;
+    right: 6vw;
+    top: 50vh;
+    transform: translate(0, -50%);
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 2;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#sidenav ul {
+    list-style: none;
+    cursor: pointer;
+    margin: auto;
+}
+
+#sidenav li {
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+    color: rgb(58, 58, 58);
+    font-size: 1.1rem;
+    line-height: 4vh;
+}
+
+#sidenav li:after {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    content: "";
+    background-color: black;
+    display: block;
+    position: absolute;
+    left: 10px;
+}
+
+#sidenav li:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#sidenav li:hover:after {
+    -webkit-transform: translate(0, -250%);
+    transform: translate(0, -250%);
+    border-color: transparent #000 #000 transparent;
+    border-style: solid;
+    border-width: 0px 0px 10px 10px;
+}
+
+
+/*------------------- Logo -------------------*/
+
+#logo {
+    top: 7vh;
+    left: 3vw;
+    position: fixed;
+    width: 10vw;
+    z-index: 9999;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+
+#logo h2 {
+    width: 100%;
+    font-size: 2rem;
+}
+
+#logo h6 {
+    width: 100%;
+    font-size: 1rem;
+}
+
+
+/*------------------- Intro -------------------*/
+
+#intro {
+    width: 100vw;
+    height: 125vh;
+    margin-left: 2vw;
+    position: absolute;
+    z-index: 1;
+    padding: 12%;
+    padding-bottom: 15%;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/nus-bg.jpg");
+    background-size: 70%;
+    background-position-y: 60%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+}
+
+#intro h3 {
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+    margin-top: 1vh;
+    line-height: 10vh;
+}
+
+#intro p {
+    width: 100%;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    line-height: 4vh;
+}
+
+
+/*------------------- Message -------------------*/
+
+#message {
+    width: fit-content;
+    height: 50vh;
+    margin: auto;
+    margin-top: 40vh;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    position: relative;
+}
+
+#message .img1 {
+    position: absolute;
+    top: -20vh;
+    left: -30vw;
+    width: 90%;
+}
+
+#message .img2 {
+    position: absolute;
+    top: 45vh;
+    right: -20vw;
+    width: 70%;
+}
+
+#message .text {
+    background-color: white;
+    z-index: 1;
+    padding: 3vh 1vw;
+    margin-left: 10vw;
+}
+
+#message p {
+    letter-spacing: 1px;
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+
+
+/*------------------- Articles-------------------*/
+
+#articles {
+    height: 80vh;
+    width: 85vw;
+    margin-top: 40vh;
+    padding: 10% 15%;
+    background-color: rgba(29, 49, 86, 0.815);
+    color: white
+}
+
+#articles h3 {
+    width: 100%;
+    letter-spacing: 1px;
+    margin-bottom: 3vh;
+    line-height: 10vh;
+    font-size: 4.2rem;
+}
+
+#articles p {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 4vh;
+}
+
+#articles a {
+    border: 2px solid pink;
+    letter-spacing: 3px;
+    text-transform: none;
+    font-size: 1rem;
+    font-family: 'Shippori Mincho', serif;
+}
+
+#articles a::before {
+    background: rgb(215, 171, 255);
+}
+
+#articles a:hover {
+    text-decoration: none;
+    color: white
+}
+
+
+/*------------------- Social Media -------------------*/
+
+#socialmedia {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20vh;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    padding: 10vh 5vw;
+}
+
+#socialmedia .col-3,
+#socialmedia .text {
+    padding: 10%;
+}
+
+#socialmedia img {
+    width: 20vw;
+    padding: 1%;
+    margin: auto;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#socialmedia img:hover {
+    opacity: 70%;
+    cursor: pointer;
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+}
+
+#socialmedia p {
+    font-size: 2rem;
+    line-height: 3vw;
+}
+
+
+/*------------------- Members -------------------*/
+
+#members {
+    height: fit-content;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 5%;
+    position: relative;
+}
+
+#members::after {
+    content: "";
+    height: 25vh;
+    width: 80vw;
+    background-color: lightblue;
+    position: absolute;
+    z-index: -1;
+    right: -20vw;
+    top: -5vh;
+}
+
+#members .biz-img {
+    position: absolute;
+    top: -30vh;
+    right: -12vw;
+    width: 65%;
+}
+
+#members h3 {
+    width: 100%;
+    letter-spacing: 1px;
+    padding: 1rem;
+    line-height: 4vh;
+    font-size: 1.8rem;
+}
+
+#members img {
+    width: 100%;
+}
+
+.col-md-3 {
+    background-color: white;
+}
+
+.rect {
+    overflow: hidden;
+    position: relative;
+    margin-top: 2vh;
+}
+
+.pop-up {
+    background-color: rgba(0, 0, 0, 0.609);
+    position: absolute;
+    color: white;
+    height: inherit;
+    width: inherit;
+    bottom: 0;
+    left: 0;
+    padding: 2%;
+}
+
+.pop-up a {
+    font-size: 2rem;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+}
+
+.pop-up a:hover {
+    color: rgba(168, 168, 255, 0.849);
+    /* color: rgb(250, 118, 77); */
+}
+
+#sho,
+#yuichiro,
+#yoh,
+#ikki,
+#yuya,
+#yuki,
+#ayumi,
+#ui {
+    display: none;
+}
+
+#members h4 {
+    margin-top: 3vh;
+    /* font-size: 1.8rem; */
+}
+
+#members h4,
+h6 {
+    width: 100%;
+    text-align: center;
+}
+
+#members p {
+    margin-top: 2vh;
+    text-align: center;
+    margin-bottom: 1vh;
+    font-size: 1.1rem;
+}
+
+#members span {
+    font-size: 1.1rem;
+    color: white;
+}
+
+#members .icons {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0 4vw;
+}
+
+
+/*------------------- Contact -------------------*/
+
+#contact {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    padding: 20% 12%;
+    /* background-color: lightsalmon; */
+    position: relative;
+}
+
+#contact .box {
+    height: fit-content;
+    background-color: rgb(187, 238, 255);
+    z-index: 1;
+    padding: 2% 3%;
+    position: absolute;
+    right: 12vw;
+}
+
+#contact h3 {
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+#contact p {
+    margin-top: 2vh;
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+
+#contact i,
+h5 {
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+#contact img {
+    position: absolute;
+    top: 25vh;
+    right: 15vw;
+    /* width: 60%; */
+}
+
+
+/*------------------- Copyright -------------------*/
+
+#copyright {
+    height: 8vh;
+    width: 40%;
+    margin: auto;
+    margin-top: 10vh;
+    /* background-color: lightslategrey; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+#copyright .icons {
+    width: 100%;
+    padding: 0 17vw;
+}
+
+#copyright a {
+    font-size: 1.67rem;
+    margin: auto;
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+}
+
+#copyright a:hover {
+    color: rgb(87, 87, 255);
+}
