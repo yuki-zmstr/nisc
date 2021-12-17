@@ -147,7 +147,7 @@ body {
 
 #intro {
     width: 100vw;
-    height: 125vh;
+    height: 115vh;
     margin-left: 2vw;
     position: absolute;
     z-index: 1;
@@ -268,7 +268,7 @@ body {
     height: 100vh;
     width: 100%;
     margin: auto;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     padding: 10vh 5vw;
@@ -437,7 +437,7 @@ h6 {
     height: fit-content;
     background-color: rgb(187, 238, 255);
     z-index: 1;
-    padding: 2% 3%;
+    padding: 2% 3% 1% 3%;
     position: absolute;
     right: 12vw;
 }
