@@ -213,7 +213,7 @@ body {
 #message p {
     letter-spacing: 1px;
     line-height: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 
@@ -308,7 +308,7 @@ body {
 
 #members {
     height: fit-content;
-    width: 75%;
+    width: 85%;
     margin: auto;
     padding-bottom: 5%;
     position: relative;
@@ -327,15 +327,16 @@ body {
 
 #members .biz-img {
     position: absolute;
-    top: -30vh;
-    right: -12vw;
-    width: 65%;
+    top: -25vh;
+    right: -26vw;
+    width: 70%;
 }
 
 #members h3 {
     width: 100%;
     letter-spacing: 1px;
     padding: 1rem;
+    padding-left: 10%;
     line-height: 4vh;
     font-size: 1.8rem;
 }
@@ -366,7 +367,6 @@ body {
 }
 
 .pop-up a {
-    font-size: 2rem;
     margin: auto;
     text-decoration: none;
     color: white;
@@ -416,8 +416,9 @@ h6 {
 #members .icons {
     width: 100%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 0 4vw;
+    font-size: 1.5rem;
 }
 
 
@@ -444,7 +445,7 @@ h6 {
 #contact h3 {
     width: 100%;
     letter-spacing: 1px;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 #contact p {
@@ -463,9 +464,9 @@ h5 {
 
 #contact img {
     position: absolute;
-    top: 25vh;
+    top: 15vh;
     right: 15vw;
-    /* width: 60%; */
+    height: 70%;
 }
 
 
@@ -473,23 +474,23 @@ h5 {
 
 #copyright {
     height: 8vh;
-    width: 40%;
+    width: 80%;
     margin: auto;
-    margin-top: 10vh;
     /* background-color: lightslategrey; */
     display: flex;
     align-items: center;
     text-align: center;
     font-weight: 500;
+    font-size: 1.2rem;
 }
 
 #copyright .icons {
     width: 100%;
-    padding: 0 17vw;
+    padding: 0 35vw;
 }
 
 #copyright a {
-    font-size: 1.67rem;
+    font-size: 2rem;
     margin: auto;
     text-decoration: none;
     color: rgb(109, 109, 109);
