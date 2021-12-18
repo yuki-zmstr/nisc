@@ -60,7 +60,7 @@ body {
     -webkit-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out;
     color: rgb(58, 58, 58);
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 4vh;
 }
 
@@ -72,6 +72,7 @@ body {
     display: block;
     position: absolute;
     left: 10px;
+    transform: translate(0, -240%);
 }
 
 #sidenav li:hover {
@@ -80,9 +81,7 @@ body {
 }
 
 #sidenav li:hover:after {
-    -webkit-transform: translate(0, -250%);
-    transform: translate(0, -250%);
-    border-color: transparent #000 #000 transparent;
+    border-color: transparent;
     border-style: solid;
     border-width: 0px 0px 10px 10px;
 }
