@@ -59,7 +59,7 @@ body {
 #sidenav li {
     -webkit-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out;
-    color: rgb(58, 58, 58);
+    color: black;
     font-size: 1.1rem;
     line-height: 4vh;
 }
