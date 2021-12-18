@@ -118,7 +118,7 @@ body {
     height: 35vh;
     width: 100%;
     margin: auto;
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/erc.jpg");
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(25, 0, 255, 0.25)), url("../img/erc.jpg");
     background-size: 100%;
     background-position-y: 85%;
     background-position-x: -10%;
@@ -213,7 +213,7 @@ body {
     padding-bottom: 12rem;
     display: inline-block;
     text-align: center;
-    margin: 0.5vw;
+    margin: 1.6vh 0.5vw;
     position: relative;
     -webkit-transition: top 0.3s ease-in-out;
     transition: top 0.3s ease-in-out;
@@ -228,7 +228,6 @@ body {
 
 .article-wrapper p {
     font-size: 1rem;
-    font-weight: 500;
     position: absolute;
     bottom: 0;
     width: 100%;
