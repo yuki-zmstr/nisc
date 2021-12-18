@@ -118,7 +118,7 @@ body {
     height: 35vh;
     width: 100%;
     margin: auto;
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/erc.jpg");
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgba(88, 70, 255, 0.1)), url("../img/erc.jpg");
     background-size: 100%;
     background-position-y: 85%;
     background-position-x: -10%;
@@ -161,10 +161,10 @@ body {
 
 .section p::after {
     content: "";
-    height: 12vh;
+    height: 10vh;
     width: 10vw;
     position: absolute;
-    top: -6vh;
+    top: -4.5vh;
     left: -5vw;
     background-color: rgba(29, 49, 86, 0.253);
     z-index: -1;
