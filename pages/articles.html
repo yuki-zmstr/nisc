@@ -28,7 +28,35 @@
     <script src="https://kit.fontawesome.com/e19efbd276.js" crossorigin="anonymous"></script>
 
     <!-- custom styling -->
-    <link rel="stylesheet" href="../css/style-articles.css" />
+    <!-- <link rel="stylesheet" href="../css/style-articles.css" /> -->
+    <script type="text/javascript">
+        /***********************************************
+         * Different CSS depending on OS (mac/pc)- (c) Dynamic Drive (www.dynamicdrive.com)
+         * This notice must stay intact for use
+         * Visit http://www.dynamicdrive.com/ for full source code
+         ***********************************************/
+
+        var csstype = "external" //Specify type of CSS to use. "Inline" or "external"
+
+        var mac_css = 'body{font-size: 14pt; }' //if "inline", specify mac css here
+        var pc_css = 'body{font-size: 12pt; }' //if "inline", specify PC/default css here
+
+        var mac_externalcss = '../css/macstyle-articles.css' //if "external", specify Mac css file here
+        var pc_externalcss = '../css/pcstyle-articles.css' //if "external", specify PC/default css file here
+
+        ///////No need to edit beyond here////////////
+
+        var mactest = navigator.userAgent.indexOf("Mac") != -1
+        if (csstype == "inline") {
+            document.write('<style type="text/css">')
+            if (mactest)
+                document.write(mac_css)
+            else
+                document.write(pc_css)
+            document.write('</style>')
+        } else if (csstype == "external")
+            document.write('<link rel="stylesheet" type="text/css" href="' + (mactest ? mac_externalcss : pc_externalcss) + '">')
+    </script>
 
     <!-- queries -->
     <link rel="stylesheet" href="../queries/queries-articles.css" />
