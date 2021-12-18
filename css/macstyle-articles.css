@@ -128,9 +128,9 @@ body {
     margin: auto;
     font-size: 1.5rem;
     letter-spacing: 1px;
-    line-height: 4vh;
+    line-height: 3vh;
     padding: 1%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
 }
 
@@ -354,23 +354,24 @@ body {
 
 #copyright {
     height: 8vh;
-    width: 40%;
+    width: 80%;
     margin: auto;
-    margin-top: 10vh;
     /* background-color: lightslategrey; */
     display: flex;
     align-items: center;
     text-align: center;
     font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 10vh;
 }
 
 #copyright .icons {
     width: 100%;
-    padding: 0 17vw;
+    padding: 0 35vw;
 }
 
 #copyright a {
-    font-size: 1.67rem;
+    font-size: 2rem;
     margin: auto;
     text-decoration: none;
     color: rgb(109, 109, 109);
