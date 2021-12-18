@@ -155,7 +155,7 @@ body {
 
 .section p {
     position: relative;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: 500;
 }
 
@@ -194,6 +194,10 @@ body {
     /* background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.25, rgb(25, 80, 77, 0.4)), color-stop(0.5, rgb(25, 80, 77, 0.6)), color-stop(0.75, rgb(25, 80, 77, 0.8))); */
 }
 
+.scrollmenu.gray {
+    height:20vh
+}
+
 .scrollmenu.blue::-webkit-scrollbar-thumb {
     background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.25, rgb(123, 155, 218)), color-stop(0.5, rgb(81, 138, 207)), color-stop(0.75, rgb(91, 122, 214)));
 }
@@ -209,11 +213,11 @@ body {
 .article-wrapper {
     top: 0;
     height: 0;
-    width: 12rem;
-    padding-bottom: 12rem;
+    width: 13rem;
+    padding-bottom: 13rem;
     display: inline-block;
     text-align: center;
-    margin: 0.5vw;
+    margin: 1.5vh 0.5vw 0 0.5vw;
     position: relative;
     -webkit-transition: top 0.3s ease-in-out;
     transition: top 0.3s ease-in-out;
@@ -227,7 +231,7 @@ body {
 }
 
 .article-wrapper p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     position: absolute;
     bottom: 0;
@@ -245,10 +249,11 @@ body {
     left: 0px;
     content: "";
     color: transparent;
-    height: 12rem;
-    width: 12rem;
+    height: 13rem;
+    width: 13rem;
     border-radius: 5px;
-    box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.75)
+    box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.75);
+
 }
 
 .article-wrapper.blue p {
