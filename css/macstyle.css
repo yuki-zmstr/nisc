@@ -141,7 +141,6 @@ body {
     width: 100%;
     font-size: 0.9rem;
     letter-spacing: 1px;
-
 }
 
 
@@ -387,7 +386,8 @@ body {
 #yuya,
 #yuki,
 #ayumi,
-#ui {
+#ui,
+#asahi {
     display: none;
 }
 
