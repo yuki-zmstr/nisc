@@ -365,6 +365,10 @@ body {
     margin-top: 15vh
 }
 
+.phoneicons {
+    visibility: hidden;
+}
+
 .rect {
     overflow: hidden;
     position: relative;
