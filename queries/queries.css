@@ -194,7 +194,7 @@
         margin-bottom: 20vh;
         -ms-writing-mode: tb-lr;
         writing-mode: horizontal-tb;
-        padding: 10vh 5vw;
+        padding: 15vh 5vw;
         position: relative;
     }
     #socialmedia .text {
@@ -233,7 +233,7 @@
         margin: auto;
         padding-bottom: 5%;
         position: relative;
-        margin-top: 40vh
+        margin-top: 50vh
     }
     #members::after {
         content: "";
