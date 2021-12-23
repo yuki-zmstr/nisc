@@ -41,21 +41,6 @@
 /* ----------------------------------------------- */
 
 @media only screen and (min-width: 768px) and (max-width: 769px) {
-    #Y {
-        font-size: 3rem;
-        padding: 0
-    }
-    #umz {
-        font-size: 2rem;
-        vertical-align: middle;
-    }
-    .sns a {
-        font-size: 1.5rem;
-        margin: 0 0.5rem;
-    }
-    #topnav {
-        font-size: 0.9rem;
-    }
 }
 
 
@@ -93,7 +78,7 @@
         padding-left: 2vw;
         padding-right: 2vw;
         background-color: rgb(255, 255, 255);
-        background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/nus-bg.jpg");
+        background-image: radial-gradient(rgb(255, 255, 255), rgba(255, 255, 255,0.3)), url("../img/nus-bg.jpg");
         background-size: 100%;
         background-position-y: 50%;
         background-position-x: 100%;
@@ -111,6 +96,7 @@
         padding: 5%;
         margin-top: 0;
         line-height: 5vh;
+        font-weight: 500
     }
     #intro p {
         /* width: 100%; */
@@ -120,4 +106,43 @@
         text-align: center;
         padding: 0 4vw;
     }
+    /*------------------- Message -------------------*/
+
+    #message {
+        width: fit-content;
+        height: 50vh;
+        margin: auto;
+        margin-top: 0;
+        -ms-writing-mode: tb-lr;
+        writing-mode: horizontal-tb;
+        position: relative;
+    }
+
+    #message .img1 {
+        position: absolute;
+        top: -20vh;
+        left: -30vw;
+        width: 90%;
+    }
+
+    #message .img2 {
+        position: absolute;
+        top: 45vh;
+        right: -20vw;
+        width: 70%;
+    }
+
+    #message .text {
+        background-color: white;
+        z-index: 1;
+        padding: 2.5vh 1vw;
+        margin-left: 10vw;
+    }
+
+    #message p {
+        letter-spacing: 1px;
+        line-height: 3rem;
+        font-size: 1.2rem;
+    }
+
 }
