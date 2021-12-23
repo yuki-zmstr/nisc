@@ -106,6 +106,10 @@
         text-align: center;
         padding: 0 4vw;
     }
+
+    #filler {
+        height: 80vh;
+    }}
     /*------------------- Message -------------------*/
 
     #message {
@@ -120,23 +124,23 @@
 
     #message .img1 {
         position: absolute;
-        top: -20vh;
-        left: -30vw;
-        width: 90%;
+        top: -40vh;
+        left: 0;
+        width: 100%;
     }
 
     #message .img2 {
         position: absolute;
-        top: 45vh;
+        top: 60vh;
         right: -20vw;
-        width: 70%;
+        width: 100%;
     }
 
     #message .text {
         background-color: white;
         z-index: 1;
-        padding: 2.5vh 1vw;
-        margin-left: 10vw;
+        padding: 2.5vh 8vw;
+        margin: auto;
     }
 
     #message p {
@@ -144,5 +148,220 @@
         line-height: 3rem;
         font-size: 1.2rem;
     }
+    /*------------------- Articles-------------------*/
+
+    #articles {
+        height: 80vh;
+        width: 100vw;
+        margin-top: 50vh;
+        padding: 10% 15%;
+        background-color: rgba(29, 49, 86, 0.815);
+        color: white
+    }
+
+    #articles h3 {
+        width: 100%;
+        letter-spacing: 1px;
+        margin-bottom: 3vh;
+        line-height: 10vh;
+        font-size: 4.2rem;
+    }
+
+    #articles p {
+        width: 100%;
+        font-size: 1.2rem;
+        line-height: 4vh;
+        margin-bottom: 0;
+    }
+
+    #articles a {
+        border: 2px solid pink;
+        letter-spacing: 3px;
+        text-transform: none;
+        font-size: 1.2rem;
+        font-family: 'Shippori Mincho', serif;
+        height: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: auto;
+        margin-top: 0;
+    }
+
+    #articles a::before {
+        background: rgb(215, 171, 255);
+    }
+
+    #articles a:hover {
+        text-decoration: none;
+        color: white
+    }
+
+    /*------------------- Social Media -------------------*/
+
+    #socialmedia {
+        height: 100vh;
+        width: 100%;
+        margin: auto;
+        margin-top: 10vh;
+        margin-bottom: 20vh;
+        -ms-writing-mode: tb-lr;
+        writing-mode: horizontal-tb;
+        padding: 10vh 5vw;
+        position: relative;
+    }
+
+    #socialmedia .text {
+        position: absolute;
+        top: 0;
+    }
+
+    #socialmedia .col-3,
+    #socialmedia .text {
+        padding: 10%;
+    }
+
+    #socialmedia .col-3 {
+        height: 30vh;
+    }
+
+    #socialmedia img {
+        width: 50vw;
+        padding: 1% 1% 1% 10%;
+        margin: auto;
+        margin-bottom: 10vh;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+
+    #socialmedia img:hover {
+        opacity: 70%;
+        cursor: pointer;
+        -webkit-transform: scale(1.05, 1.05);
+        transform: scale(1.05, 1.05);
+    }
+
+    #socialmedia p {
+        font-size: 2rem;
+        line-height: 3vw;
+    }
+
+    /*------------------- Members -------------------*/
+
+    #members {
+        height: fit-content;
+        width: 80%;
+        margin: auto;
+        padding-bottom: 5%;
+        position: relative;
+        margin-top: 40vh
+    }
+
+    #members::after {
+        content: "";
+        height: 30vh;
+        width: 80vw;
+        background-color: lightblue;
+        position: absolute;
+        z-index: -1;
+        right: -20vw;
+        top: -5vh;
+    }
+
+    #members .biz-img {
+        position: absolute;
+        top: -30vh;
+        left: -10vw;
+        width: 120%;
+    }
+
+    #members h3 {
+        width: 100%;
+        letter-spacing: 1px;
+        padding: 1rem;
+        line-height: 4vh;
+        font-size: 1.5rem;
+    }
+
+    #members img {
+        width: 100%;
+    }
+
+    .col-md-3 {
+        background-color: white;
+    }
+
+    .rect {
+        overflow: hidden;
+        position: relative;
+        margin-top: 2vh;
+    }
+
+    .pop-up {
+        background-color: rgba(0, 0, 0, 0.609);
+        position: absolute;
+        color: white;
+        height: inherit;
+        width: inherit;
+        bottom: 0;
+        left: 0;
+        padding: 2%;
+    }
+
+    .pop-up a {
+        font-size: 2rem;
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        -webkit-transition: color 0.4s ease-in-out;
+        transition: color 0.4s ease-in-out;
+    }
+
+    .pop-up a:hover {
+        color: rgba(168, 168, 255, 0.849);
+        /* color: rgb(250, 118, 77); */
+    }
+
+    #sho,
+    #yuichiro,
+    #yoh,
+    #ikki,
+    #yuya,
+    #yuki,
+    #ayumi,
+    #ui,
+    #asahi {
+        display: none;
+    }
+
+    #members h4 {
+        margin-top: 3vh;
+        /* font-size: 1.8rem; */
+    }
+
+    #members h4,
+    h6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #members p {
+        margin-top: 2vh;
+        text-align: center;
+        margin-bottom: 1vh;
+        font-size: 1.1rem;
+    }
+
+    #members span {
+        font-size: 1.1rem;
+        color: white;
+    }
+
+    #members .icons {
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        padding: 0 4vw;
+    }
+
 
 }
