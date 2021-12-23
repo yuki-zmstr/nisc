@@ -73,7 +73,7 @@
     /*------------------- Header -------------------*/
 
     #header {
-        height: 30vh;
+        height: 25vh;
         width: 100%;
         margin: auto;
         background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(25, 0, 255, 0.25)), url("../img/erc.jpg");
