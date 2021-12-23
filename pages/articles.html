@@ -60,7 +60,31 @@
     </script>
 
     <!-- queries -->
-    <link rel="stylesheet" href="../queries/queries-articles.css" />
+    <script type="text/javascript">
+        /***********************************************
+         * Different CSS depending on OS (mac/pc)- (c) Dynamic Drive (www.dynamicdrive.com)
+         * This notice must stay intact for use
+         * Visit http://www.dynamicdrive.com/ for full source code
+         ***********************************************/
+
+        var csstype = "external" //Specify type of CSS to use. "Inline" or "external"
+
+        var mac_externalcss = 'queries/pcqueries-articles.css' //if "external", specify Mac css file here
+        var pc_externalcss = 'queries/macqueries-articles.css' //if "external", specify PC/default css file here
+
+        ///////No need to edit beyond here////////////
+
+        var mactest = navigator.userAgent.indexOf("Mac") != -1
+        if (csstype == "inline") {
+            document.write('<style type="text/css">')
+            if (mactest)
+                document.write(mac_css)
+            else
+                document.write(pc_css)
+            document.write('</style>')
+        } else if (csstype == "external")
+            document.write('<link rel="stylesheet" type="text/css" href="' + (mactest ? mac_externalcss : pc_externalcss) + '">')
+    </script>
 
     <!-- animations -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
