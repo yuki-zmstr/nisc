@@ -178,9 +178,9 @@ body {
 }
 
 #filler {
-    width: 100%; height: 125vh;
+    width: 100%;
+    height: 125vh;
 }
-
 
 
 /*------------------- Message -------------------*/
@@ -346,6 +346,10 @@ body {
     font-size: 1.8rem;
 }
 
+#hold {
+    visibility: hidden;
+}
+
 #members img {
     width: 100%;
 }
@@ -354,14 +358,15 @@ body {
     background-color: white;
 }
 
-.box2{
+.box2 {
     margin-top: 5vh
 }
 
-.box3{
+.box3 {
     margin-top: 10vh
 }
-.box4{
+
+.box4 {
     margin-top: 15vh
 }
 
