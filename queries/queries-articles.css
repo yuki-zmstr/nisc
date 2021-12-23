@@ -1,143 +1,161 @@
-/*
-    code by Iatek LLC 2018 - CC 2.0 License - Attribution required
-    code customized by Azmind.com
-*/
+/* ----------------------------------------------- */
 
-@media (min-width: 768px) and (max-width: 991px) {
-    /* Show 4th slide on md if col-md-4*/
-    .carousel-inner .active.col-md-4.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-        position: absolute;
-        top: 0;
-        right: -33.3333%;
-        /*change this with javascript in the future*/
-        z-index: -1;
-        display: block;
-        visibility: visible;
-    }
-}
 
-@media (min-width: 576px) and (max-width: 768px) {
-    /* Show 3rd slide on sm if col-sm-6*/
-    .carousel-inner .active.col-sm-6.carousel-item+.carousel-item+.carousel-item {
-        position: absolute;
-        top: 0;
-        right: -50%;
-        /*change this with javascript in the future*/
-        z-index: -1;
-        display: block;
-        visibility: visible;
-    }
-}
+/* BIG DESKTOP */
 
-@media (min-width: 576px) {
-    .carousel-item {
-        margin-right: 0;
-    }
-    /* show 2 items */
-    .carousel-inner .active+.carousel-item {
-        display: block;
-    }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item {
-        transition: none;
-    }
-    .carousel-inner .carousel-item-next {
-        position: relative;
-        transform: translate3d(0, 0, 0);
-    }
-    /* left or forward direction */
-    .active.carousel-item-left+.carousel-item-next.carousel-item-left,
-    .carousel-item-next.carousel-item-left+.carousel-item,
-    .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item {
-        position: relative;
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
-    }
-    /* farthest right hidden item must be also positioned for animations */
-    .carousel-inner .carousel-item-prev.carousel-item-right {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        display: block;
-        visibility: visible;
-    }
-    /* right or prev direction */
-    .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
-    .carousel-item-prev.carousel-item-right+.carousel-item,
-    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item {
-        position: relative;
-        transform: translate3d(100%, 0, 0);
-        visibility: visible;
-        display: block;
-        visibility: visible;
-    }
+
+/* ----------------------------------------------- */
+
+
+/* @media only screen and (min-width: 1500px) {} */
+
+
+/* ----------------------------------------------- */
+
+
+/* DESKTOP */
+
+
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 1080px) and (max-width: 1499px) {}
+
+
+/* ----------------------------------------------- */
+
+
+/* TABLET LANDSCAPE */
+
+
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {}
+
+
+/* ----------------------------------------------- */
+
+
+/* TABLET PORTRAIT */
+
+
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 769px) {
 }
 
 
-/* MD */
+/* ----------------------------------------------- */
 
-@media (min-width: 768px) {
-    /* show 3rd of 3 item slide */
-    .carousel-inner .active+.carousel-item+.carousel-item {
-        display: block;
+
+/* MOBILE PORTRAIT */
+
+
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    html,
+    body {
+        font-size: 10px;
     }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
-        transition: none;
+    /* width */
+    ::-webkit-scrollbar {
+        display: none;
     }
-    .carousel-inner .carousel-item-next {
+    /*------------------- SideNav -------------------*/
+    #sidenav {
+        display: none;
+    }
+    /*------------------- Logo -------------------*/
+    #logo {
+        display: none;
+    }
+
+    /*------------------- Header -------------------*/
+
+    #header {
+        height: 25vh;
+        width: 100%;
+        margin: auto;
+        background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(25, 0, 255, 0.25)), url("../img/erc.jpg");
+        background-size: 100%;
+        background-position-y: 85%;
+        background-position-x: -10%;
+    }
+
+    #header p {
+        margin: auto;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        line-height: 4vh;
+        padding: 1%;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+    }
+
+    /*------------------- Section -------------------*/
+
+    .section {
+        width: 100%;
+        margin: auto;
+        height: fit-content;
+        padding: 15vh 30vw 0 15vw;
+        letter-spacing: 1px;
+        margin-bottom: 3vh;
+    }
+
+    .section i {
+        text-align: center;
+        margin-right: 1vw;
+        padding: 1% 0;
+        font-size: 2rem;
+    }
+
+    .section p {
         position: relative;
-        transform: translate3d(0, 0, 0);
+        font-size: 1.8rem;
+        font-weight: 500;
+        padding-left: 5vw;
     }
-    /* left or forward direction */
-    .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
-        position: relative;
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
-    }
-    /* right or prev direction */
-    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
-        position: relative;
-        transform: translate3d(100%, 0, 0);
-        visibility: visible;
-        display: block;
-        visibility: visible;
-    }
-}
 
-
-/* LG */
-
-@media (min-width: 991px) {
-    /* show 4th item */
-    .carousel-inner .active+.carousel-item+.carousel-item+.carousel-item {
-        display: block;
-    }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item+.carousel-item {
-        transition: none;
-    }
-    /* Show 5th slide on lg if col-lg-3 */
-    .carousel-inner .active.col-lg-3.carousel-item+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+    .section p::after {
+        content: "";
+        height: 12vh;
+        width: 30vw;
         position: absolute;
-        top: 0;
-        right: -25%;
-        /*change this with javascript in the future*/
+        top: -6vh;
+        left: -5vw;
+        background-color: rgba(29, 49, 86, 0.253);
         z-index: -1;
-        display: block;
-        visibility: visible;
     }
-    /* left or forward direction */
-    .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-        position: relative;
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
+    /*------------------- Copyright -------------------*/
+
+    #copyright {
+        height: 8vh;
+        width: 90vw;
+        margin: auto;
+        margin-top: 10vh;
+        /* background-color: lightslategrey; */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-weight: 500;
     }
-    /* right or prev direction //t - previous slide direction last item animation fix */
-    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-        position: relative;
-        transform: translate3d(100%, 0, 0);
-        visibility: visible;
-        display: block;
-        visibility: visible;
+
+    #copyright .icons {
+        width: 100%;
+        padding: 0 30vw;
+    }
+
+    #copyright a {
+        font-size: 2rem;
+        margin: auto;
+        text-decoration: none;
+        color: rgb(109, 109, 109);
+        -webkit-transition: color 0.4s ease-in-out;
+        transition: color 0.4s ease-in-out;
+    }
+
+    #copyright a:hover {
+        color: rgb(87, 87, 255);
     }
 }
