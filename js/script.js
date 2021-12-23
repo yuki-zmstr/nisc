@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  var wh = $(window).height();
 
 
     // $(function() {
@@ -33,8 +34,48 @@ $(document).ready(function() {
     //     .animate({ opacity: 1.0 }, 1000)
     // });
 
-    // image fade in
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+
+      if (scroll > $("#message .img1").offset().top - wh / 1.3) {
+        $("#message .img1").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
+      } 
+
+      if (scroll > $("#message .img2").offset().top - wh / 1.3) {
+        $("#message .img2").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
+      } 
+
+      var c1 = $("#c1")
+      var c2 = $("#c2")
+      var c3 = $("#c3")
+
+      if (scroll > $("#socialmedia").offset().top - wh / 1.3) {
+          c1.animate({
+            opacity: 1.0
+        }, 800)
+        setTimeout(function() {
+            c2.animate({
+                opacity: 1.0
+            },800)
+        },200)
+        setTimeout(function() {
+            c3.animate({
+                opacity: 1.0
+            },800)
+        },400)
+      
+      }
+
+
+      $(".col-md-3").each(function() {
+          var elemPos = $(this).offset().top;
+          if (scroll > elemPos - wh / 1.3) {
+              $(this).css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
+          }
+      });
     
+  });
+
     
     // member pop up
     $popup = $('.popup');
