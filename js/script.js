@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  var wh = $(window).height();
 
 
     // $(function() {
@@ -33,44 +34,65 @@ $(document).ready(function() {
     //     .animate({ opacity: 1.0 }, 1000)
     // });
 
-    // background change
     $(window).scroll(function() {
-        // selectors
-        var $window = $(window),
-            $body = $('body'),
-            $panel = $('.panel');
-        // Change 33% earlier than scroll position so colour is there when you arrive.
-        var scroll = $window.scrollTop() + ($window.height() / 3);
-        $panel.each(function () {
-          var $this = $(this);
-          if ($this.position().top <= scroll) {
-            // Remove all classes on body with color-
-            $body.removeClass(function (index, css) {
-              return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
-            });
-            // Add class of currently active div
-            $body.addClass('color-' + $(this).data('color'));
+      var scroll = $(window).scrollTop();
+
+      if (scroll > $("#message .img1").offset().top - wh / 1.3) {
+        $("#message .img1").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
+      } 
+
+      if (scroll > $("#message .img2").offset().top - wh / 1.3) {
+        $("#message .img2").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
+      } 
+
+      var c1 = $("#c1")
+      var c2 = $("#c2")
+      var c3 = $("#c3")
+
+      if (scroll > $("#socialmedia").offset().top - wh / 1.3) {
+          c1.animate({
+            opacity: 1.0
+        }, 800)
+        setTimeout(function() {
+            c2.animate({
+                opacity: 1.0
+            },800)
+        },200)
+        setTimeout(function() {
+            c3.animate({
+                opacity: 1.0
+            },800)
+        },400)
+      
+      }
+
+
+      $(".col-md-3").each(function() {
+          var elemPos = $(this).offset().top;
+          if (scroll > elemPos - wh / 1.3) {
+              $(this).css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
           }
-        });    
-        
-      }).scroll();
+      });
     
-      // member pop up
-      $popup = $('.popup');
-      $(document).mousemove(function(){
-        $popup.each(function() {
-          var $this = $(this)
-          var to_pop = "#" + $this.data('name');
-          var $to_pop = $(to_pop)
-          $this.hover(function(){
-            $to_pop.fadeIn(300);
-          }, function() {
-            $to_pop.fadeOut(300)
-          })
+  });
+
+    
+    // member pop up
+    $popup = $('.popup');
+    $(document).mousemove(function(){
+      $popup.each(function() {
+        var $this = $(this)
+        var to_pop = "#" + $this.data('name');
+        var $to_pop = $(to_pop)
+        $this.hover(function(){
+          $to_pop.fadeIn(300);
+        }, function() {
+          $to_pop.fadeOut(300)
         })
       })
-      // setInterval(function(){
-        
-      // }, 200)
+    })
+    // setInterval(function(){
+      
+    // }, 200)
       
 });

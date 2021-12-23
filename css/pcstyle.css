@@ -201,6 +201,7 @@ body {
     top: -20vh;
     left: -30vw;
     width: 90%;
+    visibility: hidden;
 }
 
 #message .img2 {
@@ -208,6 +209,7 @@ body {
     top: 45vh;
     right: -20vw;
     width: 70%;
+    visibility: hidden;
 }
 
 #message .text {
@@ -311,6 +313,12 @@ body {
     line-height: 3vw;
 }
 
+#c1,
+#c2,
+#c3 {
+    opacity: 0;
+}
+
 
 /*------------------- Members -------------------*/
 
@@ -358,6 +366,7 @@ body {
 
 .col-md-3 {
     background-color: white;
+    visibility: hidden;
 }
 
 .box2 {

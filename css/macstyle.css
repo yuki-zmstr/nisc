@@ -200,6 +200,7 @@ body {
     top: -20vh;
     left: -30vw;
     width: 100%;
+    visibility: hidden;
 }
 
 #message .img2 {
@@ -207,6 +208,7 @@ body {
     top: 35vh;
     right: -20vw;
     width: 70%;
+    visibility: hidden;
 }
 
 #message .text {
@@ -356,6 +358,7 @@ body {
 
 .col-md-3 {
     background-color: white;
+    visibility: hidden;
 }
 
 .box2 {
