@@ -227,10 +227,13 @@
     }
     #socialmedia .col-3,
     #socialmedia .text {
-        padding: 10%;
+        padding: 5%;
     }
     #socialmedia .col-3 {
-        height: 30vh;
+        height: 250px;
+        width: 90vw;
+        margin: auto;
+        /* background-color: blue; */
     }
     #socialmedia img {
         width: 50vw;
@@ -239,6 +242,8 @@
         margin-bottom: 10vh;
         -webkit-transition: all 0.4s ease-in-out;
         transition: all 0.4s ease-in-out;
+        position: absolute;
+        left: -70%
     }
     #socialmedia img:hover {
         opacity: 70%;
