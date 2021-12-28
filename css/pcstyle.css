@@ -121,6 +121,10 @@ body {
 
 /*------------------- Phonenav -------------------*/
 
+#btn-menu {
+    display: none;
+}
+
 #phonenav {
     display: none;
 }

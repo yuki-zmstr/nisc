@@ -66,6 +66,7 @@
     }
     /*------------------- Phonenav -------------------*/
     #btn-menu {
+        display: block;
         width: 100vw;
         height: 10vh;
         position: fixed;
