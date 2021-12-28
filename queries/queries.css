@@ -67,12 +67,29 @@
 
     /*------------------- Phonenav -------------------*/
 
+    #btn-menu {
+        width: 100vw;
+        position: fixed;
+        background-color: lightblue;
+        z-index: 2;
+        top: 10vw;
+        right: 10vw;
+    }
+
+    #btn-menu i {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 2rem;
+    }
+
     #phonenav {
-        display: inline-block;
+        display: none;
         height: 150vw;
         width: 100%;
-        position: absolute;
+        position: fixed;
         z-index: 9999;
+        background-color: white;
     }
     #phonelogo {
         top: 5vh;
@@ -96,6 +113,8 @@
         font-size: 1rem;
         letter-spacing: 1px;
     }
+
+    
 
     #phonenav ul{
         padding-top: 40vw;
