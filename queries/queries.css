@@ -98,7 +98,8 @@
         padding-left: 0;
         padding-right: 0;
         background-color: rgb(255, 255, 255);
-        background-image: radial-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.1)), url("../img/nus-bg.jpg");
+        background-image: url("../img/nus-bg.jpg");
+        opacity: 90%;
         background-size: 100%;
         background-position-y: 50%;
         background-position-x: 100%;
@@ -113,7 +114,7 @@
         transform: translate(0, -50%);
         text-align: center;
         color: black;
-        padding: 0 5%;
+        padding: 0 14%;
         margin: auto;
         margin-top: 0;
         line-height: 5vh;
