@@ -82,8 +82,8 @@ $(document).ready(function() {
     })
 
     function showhide() {
-      var btn = $("#btn_menu i")
-      var disabled = $("#btn_menu i").attr("disabled");
+      var btn = $("#btn-menu i")
+      var disabled = $("#btn-menu i").attr("disabled");
       if (typeof disabled == typeof undefined) {
           if (btn.hasClass("fas fa-bars")) {
               btn.removeClass("fas fa-bars");
