@@ -40,8 +40,7 @@
 
 /* ----------------------------------------------- */
 
-@media only screen and (min-width: 768px) and (max-width: 769px) {
-}
+@media only screen and (min-width: 768px) and (max-width: 769px) {}
 
 
 /* ----------------------------------------------- */
@@ -58,7 +57,7 @@
         font-size: 10px;
     }
     /* width */
-    ::-webkit-scrollbar {
+     ::-webkit-scrollbar {
         display: none;
     }
     /*------------------- SideNav -------------------*/
@@ -69,19 +68,16 @@
     #logo {
         display: none;
     }
-
     /*------------------- Header -------------------*/
-
     #header {
         height: 25vh;
         width: 100%;
         margin: auto;
-        background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(25, 0, 255, 0.25)), url("../img/erc.jpg");
+        background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/erc.jpg");
         background-size: 100%;
         background-position-y: 85%;
         background-position-x: -10%;
     }
-
     #header p {
         margin: auto;
         font-size: 1.5rem;
@@ -91,9 +87,7 @@
         background-color: rgba(255, 255, 255, 0.8);
         border-radius: 10px;
     }
-
     /*------------------- Section -------------------*/
-
     .section {
         width: 100%;
         margin: auto;
@@ -102,21 +96,18 @@
         letter-spacing: 1px;
         margin-bottom: 3vh;
     }
-
     .section i {
         text-align: center;
         margin-right: 1vw;
         padding: 1% 0;
         font-size: 2rem;
     }
-
     .section p {
         position: relative;
         font-size: 1.8rem;
         font-weight: 500;
         padding-left: 5vw;
     }
-
     .section p::after {
         content: "";
         height: 12vh;
@@ -128,7 +119,6 @@
         z-index: -1;
     }
     /*------------------- Copyright -------------------*/
-
     #copyright {
         height: 8vh;
         width: 90vw;
@@ -140,12 +130,10 @@
         text-align: center;
         font-weight: 500;
     }
-
     #copyright .icons {
         width: 100%;
         padding: 0 30vw;
     }
-
     #copyright a {
         font-size: 2rem;
         margin: auto;
@@ -154,7 +142,6 @@
         -webkit-transition: color 0.4s ease-in-out;
         transition: color 0.4s ease-in-out;
     }
-
     #copyright a:hover {
         color: rgb(87, 87, 255);
     }

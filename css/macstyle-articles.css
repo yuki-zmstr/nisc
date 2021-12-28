@@ -109,7 +109,6 @@ body {
     width: 100%;
     font-size: 0.9rem;
     letter-spacing: 1px;
-
 }
 
 
@@ -253,15 +252,15 @@ body {
 }
 
 .article-wrapper.blue p {
-    border-top: 3px solid #c18aff;
+    border-top: 3px solid rgba(193, 138, 255, 0.5);
 }
 
 .article-wrapper.orange p {
-    border-top: 3px solid orange;
+    border-top: 3px solid rgb(255, 165, 0, 0.5);
 }
 
 .article-wrapper.yellow p {
-    border-top: 3px solid #74f52a;
+    border-top: 3px solid rgb(116, 245, 42, 0.5);
 }
 
 #biz {
