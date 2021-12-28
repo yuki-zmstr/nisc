@@ -89,12 +89,12 @@
     }
     /*------------------- Intro -------------------*/
     #intro {
-        height: 40vh;
+        height: 60vw;
         width: 90%;
         margin: auto;
         margin-top: 0;
         /* padding: 100vh 1vw inherit 1vw; */
-        padding-top: 70vh;
+        padding-top: 130vw;
         padding-left: 0;
         padding-right: 0;
         background-color: rgb(255, 255, 255);
@@ -110,8 +110,9 @@
         width: 100%;
         position: absolute;
         top: -70%;
-        -webkit-transform: translate(0, -50%);
-        transform: translate(0, -50%);
+        left: -50%;
+        -webkit-transform: translate(50%, -50%);
+        transform: translate(50%, -50%);
         text-align: center;
         color: black;
         padding: 0 14%;
@@ -133,7 +134,7 @@
         padding: 0 4vw;
     }
     #filler {
-        height: 80vh;
+        height: 150vw;
     }
     /*------------------- Message -------------------*/
     #message {
@@ -230,7 +231,7 @@
         padding: 5%;
     }
     #socialmedia .col-3 {
-        height: 250px;
+        height: 60vw;
         width: 90vw;
         margin: auto;
         /* background-color: blue; */
