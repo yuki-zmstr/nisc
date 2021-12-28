@@ -83,7 +83,7 @@
     }
     #phonenav {
         display: none;
-        height: 150vw;
+        height: 200vw;
         width: 100%;
         position: fixed;
         z-index: 999;
