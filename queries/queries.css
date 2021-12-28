@@ -64,13 +64,103 @@
     #sidenav {
         display: none;
     }
+
+    /*------------------- Phonenav -------------------*/
+
+    #phonenav {
+        display: inline-block;
+        height: 150vw;
+        width: 100%;
+        position: absolute;
+        z-index: 9999;
+    }
+    #phonelogo {
+        top: 5vh;
+        left: 2vw;
+        position: relative;
+        width:50vw;
+        z-index: 9999;
+        font-family: 'DM Sans', sans-serif;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    #phonelogo h2 {
+        width: 100%;
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+    
+    #phonelogo h6 {
+        width: 100%;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    #phonenav ul{
+        padding-top: 40vw;
+        padding-left: 20vw;
+        list-style: none;
+        cursor: pointer;
+        margin: auto;
+        /* background-color: tomato; */
+    }
+
+    #phonenav li {
+        color: black;
+        font-size: 1.8rem;
+        line-height: 10vw;
+    }
+
+    #phonenav .email {
+        width: 100%;
+        margin: auto;
+        /* background-color: yellow; */
+        margin-top: 20vw;
+        font-size: 1.5rem;
+        padding-left: 10vw;
+    }
+
+    #phonenav .email span {
+        width: 100%;
+    }
+
+    #phonenav .email .r1 {
+        color:rgba(0, 0, 0, 0.692);
+        font-size: 1rem;
+    }
+
+    #phonenav .email r2 {
+        width: 100%;
+    }
+
+    #phonenav .icons {
+        width: 100%;
+        padding-left: 8vw;
+        /* background-color: violet; */
+        margin-top: 5vw;
+    }
+
+    #phonenav a {
+        font-size: 3rem;
+        text-decoration: none;
+        margin-left:5vw;
+        color: rgb(0, 0, 0);
+        -webkit-transition: color 0.4s ease-in-out;
+        transition: color 0.4s ease-in-out;
+    }
+
+    #phonenav a:hover {
+        color: rgb(87, 87, 255);
+    }
+
     /*------------------- Logo -------------------*/
     #logo {
         top: 5vh;
         left: 2vw;
         position: relative;
         width:50vw;
-        z-index: 9999;
+        z-index: 2;
         font-family: 'DM Sans', sans-serif;
         cursor: pointer;
         text-align: center;
