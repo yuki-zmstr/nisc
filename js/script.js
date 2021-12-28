@@ -80,8 +80,38 @@ $(document).ready(function() {
         })
       })
     })
-    // setInterval(function(){
-      
-    // }, 200)
+
+    function showhide() {
+      var btn = $("#btn_menu i")
+      var disabled = $("#btn_menu i").attr("disabled");
+      if (typeof disabled == typeof undefined) {
+          if (btn.hasClass("fas fa-bars")) {
+              btn.removeClass("fas fa-bars");
+              btn.addClass("fas fa-times");
+          } else {
+              btn.removeClass("fas fa-times");
+              btn.addClass("fas fa-bars");
+          }
+          var onPage = $("#phonenav").css("display");
+          if (onPage == "none") {
+              $("#phonenav").css({ opacity: 0.0, "display": "inline-block" }).animate({ opacity: 1.0}, 500);
+              // $(".container-fluid").animate({ opacity: 0.5 }, 500);
+              console.log("bar is shown");
+          } else {
+              $("#phonenav").animate({ opacity: 0.0}, 500);
+              // $(".container-fluid").animate({ opacity: 1 }, 500);
+              setTimeout(function() {
+                  $("#phonenav").css({ "display": "none" })
+              }, 500)
+              console.log("bar is hidden");
+          }
+          $(this).attr("disabled", true);
+          var that = this;
+          setTimeout(function() { $(that).removeAttr("disabled") }, 600);
+        }
+      console.log('clicked');
+    }  
+    $("#phonenav li").click(showhide);
+    $("#btn-menu i").click(showhide);
       
 });

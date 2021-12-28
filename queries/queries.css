@@ -64,59 +64,51 @@
     #sidenav {
         display: none;
     }
-
     /*------------------- Phonenav -------------------*/
-
     #btn-menu {
         width: 100vw;
+        height: 10vh;
         position: fixed;
-        background-color: lightblue;
         z-index: 2;
         top: 10vw;
         right: 10vw;
+        z-index: 9999;
     }
-
     #btn-menu i {
         position: absolute;
         right: 0;
         top: 0;
         font-size: 2rem;
     }
-
     #phonenav {
         display: none;
         height: 150vw;
         width: 100%;
         position: fixed;
-        z-index: 9999;
+        z-index: 999;
         background-color: white;
     }
     #phonelogo {
         top: 5vh;
         left: 2vw;
         position: relative;
-        width:50vw;
-        z-index: 9999;
+        width: 50vw;
+        z-index: 999;
         font-family: 'DM Sans', sans-serif;
         cursor: pointer;
         text-align: center;
     }
-    
     #phonelogo h2 {
         width: 100%;
         font-size: 2rem;
         letter-spacing: 1px;
     }
-    
     #phonelogo h6 {
         width: 100%;
         font-size: 1rem;
         letter-spacing: 1px;
     }
-
-    
-
-    #phonenav ul{
+    #phonenav ul {
         padding-top: 40vw;
         padding-left: 20vw;
         list-style: none;
@@ -124,13 +116,12 @@
         margin: auto;
         /* background-color: tomato; */
     }
-
     #phonenav li {
         color: black;
         font-size: 1.8rem;
         line-height: 10vw;
+        z-index: 999;
     }
-
     #phonenav .email {
         width: 100%;
         margin: auto;
@@ -139,58 +130,49 @@
         font-size: 1.5rem;
         padding-left: 10vw;
     }
-
     #phonenav .email span {
         width: 100%;
     }
-
     #phonenav .email .r1 {
-        color:rgba(0, 0, 0, 0.692);
+        color: rgba(0, 0, 0, 0.692);
         font-size: 1rem;
     }
-
     #phonenav .email r2 {
         width: 100%;
     }
-
     #phonenav .icons {
         width: 100%;
         padding-left: 8vw;
         /* background-color: violet; */
         margin-top: 5vw;
     }
-
     #phonenav a {
         font-size: 3rem;
         text-decoration: none;
-        margin-left:5vw;
+        margin-left: 5vw;
         color: rgb(0, 0, 0);
         -webkit-transition: color 0.4s ease-in-out;
         transition: color 0.4s ease-in-out;
     }
-
     #phonenav a:hover {
         color: rgb(87, 87, 255);
     }
-
     /*------------------- Logo -------------------*/
     #logo {
         top: 5vh;
         left: 2vw;
         position: relative;
-        width:50vw;
+        width: 50vw;
         z-index: 2;
         font-family: 'DM Sans', sans-serif;
         cursor: pointer;
         text-align: center;
     }
-    
     #logo h2 {
         width: 100%;
         font-size: 2rem;
         letter-spacing: 1px;
     }
-    
     #logo h6 {
         width: 100%;
         font-size: 1rem;
@@ -540,12 +522,10 @@
         text-align: center;
         font-weight: 500;
     }
-
     #copyright .icons {
         width: 100%;
         padding: 0 30vw;
     }
-
     #copyright a {
         font-size: 2rem;
         margin: auto;
@@ -554,7 +534,6 @@
         -webkit-transition: color 0.4s ease-in-out;
         transition: color 0.4s ease-in-out;
     }
-
     #copyright a:hover {
         color: rgb(87, 87, 255);
     }
