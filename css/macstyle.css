@@ -170,6 +170,11 @@ body {
     line-height: 10vh;
 }
 
+mark {
+    background-color: transparent;
+}
+
+
 #intro p {
     width: 100%;
     font-size: 1.2rem;
