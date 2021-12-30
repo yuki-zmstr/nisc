@@ -79,6 +79,7 @@ body {
     letter-spacing: 1px;
     z-index: 2;
     background-color: rgb(255, 255, 255, 0.7);
+    opacity: 0;
 }
 
 #sidenav ul {
@@ -140,6 +141,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     cursor: pointer;
     text-align: center;
+    opacity: 0;
 }
 
 #logo h2 {
@@ -157,7 +159,7 @@ body {
 
 /*------------------- Intro -------------------*/
 
-h1{
+h1 {
     width: 100%;
     position: absolute;
     top: 20vh;
@@ -166,13 +168,12 @@ h1{
     font-size: 1.8rem;
     margin-top: 1vh;
     line-height: 10vh;
-    z-index: 2
+    z-index: 2 opacity: 0;
 }
+
 mark {
     background-color: white;
 }
-
-
 
 #intro {
     width: 100vw;

@@ -66,10 +66,18 @@ $(document).ready(function() {
     });
 
     // top background fade in
+  
+    $('h1').css({ opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0}, 1500)
+
+    $('#logo').css({ opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0}, 1500)
+
+    $('#sidenav').css({ opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0}, 1500)
+
+
     setTimeout(function(){
       $('#intro').css({ opacity: 0.0, visibility: "visible", left: "+=10"}).animate({opacity: 1.0, left: "-=10"}, 1000)
     }
-    ,1000)
+    ,1500)
 
 
     
