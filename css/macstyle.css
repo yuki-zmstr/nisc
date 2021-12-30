@@ -157,33 +157,40 @@ body {
 
 /*------------------- Intro -------------------*/
 
+h1{
+    width: 100%;
+    position: absolute;
+    top: 20vh;
+    left: 15vw;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    margin-top: 1vh;
+    line-height: 10vh;
+    z-index: 2
+}
+mark {
+    background-color: white;
+}
+
+
+
 #intro {
     width: 100vw;
     height: 115vh;
     margin-left: 2vw;
     position: absolute;
     z-index: 1;
-    padding: 12%;
-    padding-bottom: 15%;
+    padding: 50vh 12vw;
     background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to right, rgb(255, 255, 255), 80%, rgb(25, 0, 255, 0.1)), url("../img/nus-bg.jpg");
     background-size: 100%;
     background-position-y: 50%;
     background-position-x: 100%;
     background-repeat: no-repeat;
+    opacity: 0;
 }
 
-#intro h3 {
-    width: 100%;
-    letter-spacing: 2px;
-    font-size: 1.8rem;
-    margin-top: 1vh;
-    line-height: 10vh;
-}
 
-mark {
-    background-color: transparent;
-}
 
 #intro p {
     width: 100%;

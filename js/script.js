@@ -67,7 +67,7 @@ $(document).ready(function() {
 
     // top background fade in
     setTimeout(function(){
-      $('#intro h3').animate({opacity: 1.0}, 1000)
+      $('#intro').css({ opacity: 0.0, visibility: "visible" }).animate({opacity: 1.0}, 1000)
     }
     ,1000)
 
