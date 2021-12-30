@@ -74,6 +74,7 @@
         top: 12vw;
         right: 12vw;
         z-index: 9999;
+        opacity: 0;
     }
     #btn-menu i {
         position: absolute;
@@ -83,7 +84,7 @@
     }
     #phonenav {
         display: none;
-        height: 200vw;
+        height: 250vw;
         width: 100%;
         position: fixed;
         z-index: 999;
@@ -180,8 +181,7 @@
         letter-spacing: 1px;
     }
     /*------------------- Intro -------------------*/
-
-    h1{
+    h1 {
         left: 0;
         width: 100%;
         position: absolute;
@@ -199,7 +199,6 @@
     mark {
         background-color: white;
     }
-
     #intro {
         top: -20vw;
         height: 200vw;
@@ -216,11 +215,9 @@
         position: relative;
         opacity: 0;
     }
-
-    #intro .col-md-9  {
+    #intro .col-md-9 {
         margin-top: 170vw;
     }
-    
     #intro p {
         /* width: 100%; */
         font-size: 1.2rem;
@@ -323,7 +320,7 @@
         top: 0;
     }
     #socialmedia .text {
-        padding:5%;
+        padding: 5%;
     }
     #socialmedia .col-3 {
         padding: 0;
