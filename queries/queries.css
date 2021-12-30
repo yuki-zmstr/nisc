@@ -182,16 +182,13 @@
     /*------------------- Intro -------------------*/
 
     h1{
-
-        width: 100%;
-        position: absolute;
         left: 0;
         width: 100%;
         position: absolute;
         top: 300px;
         text-align: center;
         color: black;
-        padding: 0 14%;
+        padding: 0 10%;
         margin: auto;
         margin-top: 0;
         line-height: 5vh;
@@ -230,7 +227,7 @@
         letter-spacing: 1px;
         line-height: 4vh;
         text-align: center;
-        padding: 0 3vw;
+        padding: 0;
     }
     #filler {
         height: 100vw;
@@ -337,12 +334,12 @@
         position: relative;
     }
     #socialmedia img {
-        width: 200%;
+        width: 250%;
         margin: auto;
         -webkit-transition: all 0.4s ease-in-out;
         transition: all 0.4s ease-in-out;
         position: absolute;
-        left: -50%;
+        left: -75%;
     }
     #socialmedia img:hover {
         opacity: 70%;
