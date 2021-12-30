@@ -180,6 +180,23 @@
         letter-spacing: 1px;
     }
     /*------------------- Intro -------------------*/
+
+    #intro{
+        -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+        animation: 2s ease 0s normal forwards 1 fadein;
+    }
+    
+    @keyframes fadein{
+        0% { opacity:0; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+    }
+    
+    @-webkit-keyframes fadein{
+        0% { opacity:0; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+    }
     #intro {
         height: 60vw;
         width: 90%;
