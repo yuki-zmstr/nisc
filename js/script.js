@@ -101,14 +101,14 @@ $(document).ready(function() {
           }
           var onPage = $("#phonenav").css("display");
           if (onPage == "none") {
-              $("#phonenav").css({ opacity: 0.0, "display": "inline-block" }).animate({ opacity: 1.0}, 500);
+              $("#phonenav").css({ opacity: 0.0, "display": "inline-block", top: "-=10"}).animate({ opacity: 1.0, top: "+=10"}, 500);
               // $(".container-fluid").animate({ opacity: 0.5 }, 500);
               console.log("bar is shown");
           } else {
               $("#phonenav").animate({ opacity: 0.0}, 500);
               // $(".container-fluid").animate({ opacity: 1 }, 500);
               setTimeout(function() {
-                  $("#phonenav").css({ "display": "none" })
+                  $("#phonenav").css({ "display": "none"})
               }, 500)
               console.log("bar is hidden");
           }
