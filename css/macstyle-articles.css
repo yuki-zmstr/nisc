@@ -85,6 +85,17 @@ body {
     border-width: 0px 0px 10px 10px;
 }
 
+/*------------------- Phonenav -------------------*/
+
+#btn-menu {
+    display: none;
+}
+
+#phonenav {
+    display: none;
+}
+
+
 
 /*------------------- Logo -------------------*/
 
