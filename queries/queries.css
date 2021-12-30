@@ -201,7 +201,7 @@
     #intro h3 {
         width: 100%;
         position: absolute;
-        top: -70%;
+        top: -40vw;
         left: -50%;
         -webkit-transform: translate(50%, -50%);
         transform: translate(50%, -50%);
@@ -240,7 +240,7 @@
     }
     #message .img1 {
         position: absolute;
-        top: -40vh;
+        top: -30vh;
         left: 0;
         width: 100%;
     }
@@ -472,7 +472,7 @@
     /*------------------- Contact -------------------*/
     #contact {
         height: 80vh;
-        width: 80%;
+        width: 100%;
         margin: auto;
         padding: 20% 12%;
         /* background-color: lightsalmon; */
