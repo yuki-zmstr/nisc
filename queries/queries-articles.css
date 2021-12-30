@@ -193,12 +193,12 @@
         height: 25vh;
         width: 100%;
         margin: auto;
-        background-image: url("../img/erc.jpg");
-        opacity: 60%;
+        background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../img/erc.jpg");
         background-size: 100%;
         background-position-y: 85%;
         background-position-x: -10%;
     }
+
     #header p {
         margin: auto;
         font-size: 1.5rem;
@@ -207,6 +207,7 @@
         padding: 1%;
         background-color: rgba(255, 255, 255, 0.8);
         border-radius: 10px;
+        opacity: unset;
     }
     /*------------------- Section -------------------*/
     .section {
