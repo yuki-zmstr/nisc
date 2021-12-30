@@ -181,7 +181,7 @@
     }
     /*------------------- Intro -------------------*/
 
-    #intro{
+    /* #intro{
         -webkit-animation: 2s ease 0s normal forwards 1 fadein;
         animation: 2s ease 0s normal forwards 1 fadein;
     }
@@ -196,7 +196,23 @@
         0% { opacity:0; }
         50% { opacity:0; }
         100% { opacity:1; }
+    } */
+
+    /* #intro h3{
+        -webkit-animation: 1s ease 0s normal forwards 1 fadeintext;
+        animation: 1s ease 0s normal forwards 1 fadeintext;
     }
+    
+    @keyframes fadeintext{
+        0% { opacity:0; }
+        100% { opacity:1; }
+    }
+    
+    @-webkit-keyframes fadeintext{
+        0% { opacity:0; }
+        100% { opacity:1; }
+    } */
+
     #intro {
         height: 60vw;
         width: 90%;
@@ -206,9 +222,8 @@
         padding-top: 130vw;
         padding-left: 0;
         padding-right: 0;
-        background-color: rgb(255, 255, 255);
+        /* background-color: rgb(255, 255, 255); */
         background-image: url("../img/nus-bg.jpg");
-        opacity: 90%;
         background-size: 100%;
         background-position-y: 50%;
         background-position-x: 100%;
@@ -230,6 +245,8 @@
         line-height: 5vh;
         font-weight: 500;
         font-size: 1.3rem;
+        opacity: 0;
+        
     }
     mark {
         background-color: white;

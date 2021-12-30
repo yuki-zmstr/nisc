@@ -63,7 +63,14 @@ $(document).ready(function() {
           }
       });
     
-  });
+    });
+
+    // top background fade in
+    setTimeout(function(){
+      $('#intro h3').animate({opacity: 1.0}, 1000)
+    }
+    ,1000)
+
 
     
     // member pop up
