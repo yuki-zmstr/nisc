@@ -350,6 +350,12 @@ body {
     background-repeat: no-repeat;
 }
 
+#entry {
+    background-image: url("../img/articles/entry.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 
 /*------------------- Copyright -------------------*/
 

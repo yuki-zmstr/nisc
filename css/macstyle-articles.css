@@ -347,6 +347,13 @@ body {
     background-repeat: no-repeat;
 }
 
+#entry {
+    background-image: url("../img/articles/entry.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position-y:110%;
+}
+
 
 /*------------------- Copyright -------------------*/
 
