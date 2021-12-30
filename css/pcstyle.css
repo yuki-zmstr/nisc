@@ -158,37 +158,41 @@ body {
 
 /*------------------- Intro -------------------*/
 
-#intro {
-    width: 100vw;
-    height: 125vh;
-    margin-left: 2vw;
-    position: absolute;
-    z-index: 1;
-    padding: 12%;
-    padding-bottom: 15%;
-    background-color: rgb(255, 255, 255);
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/nus-bg.jpg");
-    background-size: 70%;
-    background-position-y: 60%;
-    background-position-x: 100%;
-    background-repeat: no-repeat;
-}
-
-#intro h3 {
+h1 {
     width: 100%;
+    position: absolute;
+    top: 20vh;
+    left: 15vw;
     letter-spacing: 2px;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     margin-top: 1vh;
     line-height: 10vh;
+    z-index: 2
 }
 
 mark {
-    background-color: transparent;
+    background-color: white;
+}
+
+#intro {
+    width: 100vw;
+    height: 115vh;
+    margin-left: 2vw;
+    position: absolute;
+    z-index: 1;
+    padding: 50vh 12vw;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(255, 255, 255), 60%, rgb(25, 0, 255, 0.3)), url("../img/nus-bg.jpg");
+    background-size: 70%;
+    background-position-y: 50%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    opacity: 0;
 }
 
 #intro p {
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     line-height: 4vh;
 }
