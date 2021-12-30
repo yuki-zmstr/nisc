@@ -57,9 +57,16 @@
         font-size: 10px;
     }
     /* width */
-     ::-webkit-scrollbar {
-        display: none;
+
+    ::-webkit-scrollbar:vertical {
+        width: 0px;
     }
+
+    ::-webkit-scrollbar:horizontal {
+        height: 10px;
+    }
+
+
     /*------------------- SideNav -------------------*/
     #sidenav {
         display: none;
