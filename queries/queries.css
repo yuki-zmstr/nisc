@@ -182,6 +182,10 @@
     /*------------------- Intro -------------------*/
 
     h1{
+
+        width: 100%;
+        position: absolute;
+        left: 0;
         width: 100%;
         position: absolute;
         top: 300px;
@@ -200,13 +204,12 @@
     }
 
     #intro {
-        height: 60vw;
+        top: -20vw;
+        height: 200vw;
         width: 90%;
         margin: auto;
         margin-top: 0;
-        padding-top: 130vw;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
         /* background-color: rgb(255, 255, 255); */
         background-image: url("../img/nus-bg.jpg");
         background-size: 100%;
@@ -216,6 +219,10 @@
         position: relative;
         opacity: 0;
     }
+
+    #intro .col-md-9  {
+        margin-top: 170vw;
+    }
     
     #intro p {
         /* width: 100%; */
@@ -223,10 +230,10 @@
         letter-spacing: 1px;
         line-height: 4vh;
         text-align: center;
-        padding: 0 4vw;
+        padding: 0 3vw;
     }
     #filler {
-        height: 150vw;
+        height: 100vw;
     }
     /*------------------- Message -------------------*/
     #message {
