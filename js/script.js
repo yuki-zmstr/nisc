@@ -39,11 +39,12 @@ $(document).ready(function() {
 
       if (scroll > $("#message .img1").offset().top - wh / 1.3) {
         $("#message .img1").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
+        $("#message .img2").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
+
       } 
 
-      if (scroll > $("#message .img2").offset().top - wh / 1.3) {
-        $("#message .img2").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
-      } 
+      // if (scroll > $("#message .img2").offset().top - wh / 1.3) {
+      // } 
 
       if (scroll > $("#c1").offset().top - wh / 1.3) {
         $("#c1").animate({opacity: 1.0}, 800)

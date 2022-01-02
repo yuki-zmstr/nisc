@@ -187,11 +187,21 @@ mark {
     background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to right, rgb(255, 255, 255), 60%, rgb(25, 0, 255, 0.3)), url("../img/nus-bg.jpg");
     background-size: 70%;
-    background-position-y: 50%;
-    background-position-x: 100%;
+    background-position: 100% 50%;
     background-repeat: no-repeat;
+    /* animation: animatedBackground 50s linear infinite; */
     opacity: 0;
 }
+
+
+/* @keyframes animatedBackground {
+    from {
+        background-position: 100% 50%;
+    }
+    to {
+        background-position: 50% 50%;
+    }
+} */
 
 #intro p {
     width: 100%;
@@ -526,7 +536,18 @@ h5 {
     top: 25vh;
     right: 15vw;
     /* width: 60%; */
+    /* animation: scrollImage 25s linear infinite; */
 }
+
+
+/* @keyframes scrollImage {
+    from {
+        right: 15vw
+    }
+    to {
+        right: 10vw;
+    }
+} */
 
 
 /*------------------- Copyright -------------------*/
