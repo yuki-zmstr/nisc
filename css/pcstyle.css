@@ -77,8 +77,9 @@ body {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    z-index: 2;
+    z-index: 3;
     background-color: rgb(255, 255, 255, 0.7);
+    opacity: 0;
 }
 
 #sidenav ul {
@@ -119,6 +120,17 @@ body {
 }
 
 
+/*------------------- Phonenav -------------------*/
+
+#btn-menu {
+    display: none;
+}
+
+#phonenav {
+    display: none;
+}
+
+
 /*------------------- Logo -------------------*/
 
 #logo {
@@ -130,6 +142,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     cursor: pointer;
     text-align: center;
+    opacity: 0;
 }
 
 #logo h2 {
@@ -147,33 +160,52 @@ body {
 
 /*------------------- Intro -------------------*/
 
+h1 {
+    width: 100%;
+    position: absolute;
+    top: 20vh;
+    left: 15vw;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    margin-top: 1vh;
+    line-height: 10vh;
+    z-index: 2;
+    opacity: 0;
+}
+
+mark {
+    background-color: white;
+}
+
 #intro {
     width: 100vw;
-    height: 125vh;
+    height: 115vh;
     margin-left: 2vw;
     position: absolute;
     z-index: 1;
-    padding: 12%;
-    padding-bottom: 15%;
+    padding: 50vh 12vw;
     background-color: rgb(255, 255, 255);
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(25, 0, 255, 0.1)), url("../img/nus-bg.jpg");
+    background-image: linear-gradient(to right, rgb(255, 255, 255), 60%, rgb(25, 0, 255, 0.3)), url("../img/nus-bg.jpg");
     background-size: 70%;
-    background-position-y: 60%;
-    background-position-x: 100%;
+    background-position: 100% 50%;
     background-repeat: no-repeat;
+    /* animation: animatedBackground 50s linear infinite; */
+    opacity: 0;
 }
 
-#intro h3 {
-    width: 100%;
-    letter-spacing: 2px;
-    font-size: 1.7rem;
-    margin-top: 1vh;
-    line-height: 10vh;
-}
+
+/* @keyframes animatedBackground {
+    from {
+        background-position: 100% 50%;
+    }
+    to {
+        background-position: 50% 50%;
+    }
+} */
 
 #intro p {
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     line-height: 4vh;
 }
@@ -504,7 +536,18 @@ h5 {
     top: 25vh;
     right: 15vw;
     /* width: 60%; */
+    /* animation: scrollImage 25s linear infinite; */
 }
+
+
+/* @keyframes scrollImage {
+    from {
+        right: 15vw
+    }
+    to {
+        right: 10vw;
+    }
+} */
 
 
 /*------------------- Copyright -------------------*/

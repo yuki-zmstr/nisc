@@ -39,11 +39,12 @@ $(document).ready(function() {
 
       if (scroll > $("#message .img1").offset().top - wh / 1.3) {
         $("#message .img1").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
+        $("#message .img2").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
+
       } 
 
-      if (scroll > $("#message .img2").offset().top - wh / 1.3) {
-        $("#message .img2").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
-      } 
+      // if (scroll > $("#message .img2").offset().top - wh / 1.3) {
+      // } 
 
       if (scroll > $("#c1").offset().top - wh / 1.3) {
         $("#c1").animate({opacity: 1.0}, 800)
@@ -63,7 +64,22 @@ $(document).ready(function() {
           }
       });
     
-  });
+    });
+
+    // top background fade in
+  
+    $('h1').css({ opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0}, 1500)
+    $('#logo').css({ opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0}, 1500)
+    $('#sidenav').css({ opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0}, 1500)
+    $('#btn-menu').css({ opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0}, 1500)
+
+
+
+    setTimeout(function(){
+      $('#intro').css({ opacity: 0.0, visibility: "visible", left: "+=10"}).animate({opacity: 1.0, left: "-=10"}, 1000)
+    }
+    ,1500)
+
 
     
     // member pop up
@@ -80,8 +96,38 @@ $(document).ready(function() {
         })
       })
     })
-    // setInterval(function(){
-      
-    // }, 200)
+
+    function showhide() {
+      var btn = $("#btn-menu i")
+      var disabled = $("#btn-menu i").attr("disabled");
+      if (typeof disabled == typeof undefined) {
+          if (btn.hasClass("fas fa-bars")) {
+              btn.removeClass("fas fa-bars");
+              btn.addClass("fas fa-times");
+          } else {
+              btn.removeClass("fas fa-times");
+              btn.addClass("fas fa-bars");
+          }
+          var onPage = $("#phonenav").css("display");
+          if (onPage == "none") {
+              $("#phonenav").css({ opacity: 0.0, "display": "inline-block", top: "-=10"}).animate({ opacity: 1.0, top: "+=10"}, 500);
+              // $(".container-fluid").animate({ opacity: 0.5 }, 500);
+              console.log("bar is shown");
+          } else {
+              $("#phonenav").animate({ opacity: 0.0}, 500);
+              // $(".container-fluid").animate({ opacity: 1 }, 500);
+              setTimeout(function() {
+                  $("#phonenav").css({ "display": "none"})
+              }, 500)
+              console.log("bar is hidden");
+          }
+          $(this).attr("disabled", true);
+          var that = this;
+          setTimeout(function() { $(that).removeAttr("disabled") }, 600);
+        }
+      console.log('clicked');
+    }  
+    $("#phonenav li").click(showhide);
+    $("#btn-menu i").click(showhide);
       
 });
