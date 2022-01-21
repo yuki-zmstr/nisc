@@ -348,6 +348,29 @@ body {
     background-repeat: no-repeat;
 }
 
+#finance {
+    background-image: url("../img/articles/finance.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#entry {
+    background-image: url("../img/articles/entry.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#ACSI {
+    background-image: url("../img/articles/ACSI.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#JSAA {
+    background-image: url("../img/articles/JSAA.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 /*------------------- Copyright -------------------*/
 
