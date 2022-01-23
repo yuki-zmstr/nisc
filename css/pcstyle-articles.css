@@ -87,6 +87,7 @@ body {
     border-width: 0px 0px 10px 10px;
 }
 
+
 /*------------------- Phonenav -------------------*/
 
 #btn-menu {
@@ -96,7 +97,6 @@ body {
 #phonenav {
     display: none;
 }
-
 
 
 /*------------------- Logo -------------------*/
@@ -375,7 +375,9 @@ body {
 
 #ACSI {
     background-image: url("../img/articles/ACSI.png");
-    background-size: 100%;
+    background-size: 110%;
+    background-position-y: 100%;
+    background-position-x: 50%;
     background-repeat: no-repeat;
 }
 
