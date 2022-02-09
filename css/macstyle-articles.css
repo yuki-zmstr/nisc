@@ -277,6 +277,10 @@ body {
     border-top: 3px solid rgb(116, 245, 42, 0.5);
 }
 
+.article-wrapper.peach p {
+    border-top: 3px solid rgb(255, 192, 136);
+}
+
 #biz {
     background-image: url("../img/articles/biz.jpg");
     background-size: 100%;
@@ -380,6 +384,9 @@ body {
     background-position-x: 50%;
     background-repeat: no-repeat;
 }
+
+
+/* このブロックを丸ごとコピー、idを合わせる。画像名を編集。PC版も編集。 */
 
 #JSAA {
     background-image: url("../img/articles/JSAA.png");
