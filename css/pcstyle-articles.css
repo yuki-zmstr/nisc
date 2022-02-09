@@ -402,7 +402,7 @@ body {
     width: 40%;
     margin: auto;
     margin-top: 10vh;
-    /* background-color: lightslategrey; */
+    background-color: lightslategrey;
     display: flex;
     align-items: center;
     text-align: center;
