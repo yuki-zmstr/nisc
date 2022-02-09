@@ -412,6 +412,7 @@ body {
 
 #copyright .icons {
     width: 100%;
+    margin: auto;
     padding: 0 35vw;
 }
 
