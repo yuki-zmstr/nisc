@@ -1,6 +1,6 @@
-1.Git Bash を開き、niscのフォルダーにナビゲートしたのち、git pull　コマンドを実行。
+1.Zip File をダウンロード。
 2．pages/article.html をエディターで開く。
 3.記事のdivをコピー、id,リンク、タイトルを編集。
 4.css/macstyle-articles.css をエディターで開く。
 5.スタイルブロックをコピー、idを合わせる。画像名を編集。PC版も忘れず。
-6.Git Bash で、git add -> git commit -m "コメント" -> git push origin master
+6.3つのファイル（articles.html, pcstyle-articles.css, macstyle-articles.css)をアップロード。
