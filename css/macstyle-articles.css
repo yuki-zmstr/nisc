@@ -386,6 +386,12 @@ body {
     background-repeat: no-repeat;
 }
 
+#ICARE {
+    background-image: url("../img/articles/ICARE.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 /*------------------- Copyright -------------------*/
 
 #copyright {
