@@ -394,11 +394,12 @@ body {
     background-repeat: no-repeat;
 }
 
-/* #新しいID {
-    background-image: url("../img/articles/JSAA.png");
+
+#ICARE {
+    background-image: url("../img/articles/ICARE.png");
     background-size: 100%;
     background-repeat: no-repeat;
-} */
+}
 
 
 /*------------------- Copyright -------------------*/
